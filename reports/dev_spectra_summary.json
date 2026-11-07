@@ -1,0 +1,51 @@
+{
+ "bearings": [
+  "K001",
+  "K005",
+  "KA07",
+  "KA16",
+  "KI01",
+  "KI16"
+ ],
+ "n_recordings": 480,
+ "nperseg": 16384,
+ "channels": {
+  "phase_current_1": {
+   "power_fraction_below_2000Hz": {
+    "median": 0.9988048195383861,
+    "min": 0.9947752182580475
+   },
+   "power_fraction_below_4000Hz": {
+    "median": 0.9988608708393999,
+    "min": 0.9950298104941403
+   },
+   "power_fraction_below_8000Hz": {
+    "median": 0.9989352773237354,
+    "min": 0.9953965681101384
+   },
+   "power_fraction_below_16000Hz": {
+    "median": 0.9995450784941515,
+    "min": 0.9979234420681437
+   }
+  },
+  "vibration_1": {
+   "power_fraction_below_2000Hz": {
+    "median": 0.15593754695087475,
+    "min": 0.05771620320054825
+   },
+   "power_fraction_below_4000Hz": {
+    "median": 0.3842309594083284,
+    "min": 0.13618653726244664
+   },
+   "power_fraction_below_8000Hz": {
+    "median": 0.5913396189964581,
+    "min": 0.2727076332745739
+   },
+   "power_fraction_below_16000Hz": {
+    "median": 0.8247658432487701,
+    "min": 0.5185449423784658
+   }
+  }
+ },
+ "current_dominant_peak_hz": 101.5625
+}

@@ -1,0 +1,5 @@
+{
+ "status": "declared, optional; run only after Protocols A and B and recorded before inspection",
+ "design": "for outer fold k and target condition c: fit on fold-k train bearings under conditions != c; validate on fold-k validation bearings under conditions != c; test on fold-k test bearings under c",
+ "uses": "protocol_A folds x CONDITIONS"
+}

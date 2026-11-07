@@ -1,0 +1,415 @@
+{
+ "status": "frozen",
+ "seed": 20261107,
+ "description": "unseen physical bearings; all conditions of a bearing follow its assignment",
+ "dev_pool_never_tested": [
+  "K001",
+  "K005",
+  "KA07",
+  "KA16",
+  "KI01",
+  "KI16"
+ ],
+ "folds": [
+  {
+   "fold": 0,
+   "test": [
+    "K002",
+    "K006",
+    "KA03",
+    "KA08",
+    "KA22",
+    "KI05",
+    "KI18"
+   ],
+   "validation": [
+    "K005",
+    "KA09",
+    "KA30",
+    "KI08",
+    "KI16"
+   ],
+   "train": [
+    "K001",
+    "K003",
+    "K004",
+    "KA01",
+    "KA04",
+    "KA05",
+    "KA06",
+    "KA07",
+    "KA15",
+    "KA16",
+    "KI01",
+    "KI03",
+    "KI07",
+    "KI17",
+    "KI21"
+   ],
+   "bridge_folds": [
+    [
+     "K003",
+     "KA05",
+     "KA16",
+     "KI03",
+     "KI21"
+    ],
+    [
+     "K004",
+     "KA01",
+     "KA04",
+     "KI01",
+     "KI17"
+    ],
+    [
+     "K001",
+     "KA06",
+     "KA07",
+     "KA15",
+     "KI07"
+    ]
+   ],
+   "composition": {
+    "test": {
+     "n": 7,
+     "class": {
+      "healthy": 2,
+      "outer": 3,
+      "inner": 2
+     },
+     "origin": {
+      "healthy:none": 2,
+      "outer:artificial": 2,
+      "outer:real": 1,
+      "inner:artificial": 1,
+      "inner:real": 1
+     },
+     "campaign_year": {
+      "2015": 3,
+      "2014": 4
+     },
+     "manufacturer": {
+      "IBU": 4,
+      "MTK": 2,
+      "IBU / IBB": 1
+     }
+    },
+    "validation": {
+     "n": 5,
+     "class": {
+      "healthy": 1,
+      "outer": 2,
+      "inner": 2
+     },
+     "origin": {
+      "healthy:none": 1,
+      "outer:artificial": 1,
+      "outer:real": 1,
+      "inner:artificial": 1,
+      "inner:real": 1
+     },
+     "campaign_year": {
+      "2015": 3,
+      "2014": 2
+     },
+     "manufacturer": {
+      "IBU": 3,
+      "MTK": 1,
+      "FAG": 1
+     }
+    },
+    "train": {
+     "n": 15,
+     "class": {
+      "healthy": 3,
+      "outer": 7,
+      "inner": 5
+     },
+     "origin": {
+      "healthy:none": 3,
+      "outer:artificial": 4,
+      "outer:real": 3,
+      "inner:artificial": 3,
+      "inner:real": 2
+     },
+     "campaign_year": {
+      "2015": 5,
+      "2014": 10
+     },
+     "manufacturer": {
+      "IBU": 7,
+      "MTK": 5,
+      "FAG": 3
+     }
+    }
+   }
+  },
+  {
+   "fold": 1,
+   "test": [
+    "K003",
+    "KA04",
+    "KA06",
+    "KA09",
+    "KI03",
+    "KI07",
+    "KI17"
+   ],
+   "validation": [
+    "K004",
+    "KA01",
+    "KA16",
+    "KI01",
+    "KI16"
+   ],
+   "train": [
+    "K001",
+    "K002",
+    "K005",
+    "K006",
+    "KA03",
+    "KA05",
+    "KA07",
+    "KA08",
+    "KA15",
+    "KA22",
+    "KA30",
+    "KI05",
+    "KI08",
+    "KI18",
+    "KI21"
+   ],
+   "bridge_folds": [
+    [
+     "K001",
+     "K002",
+     "KA05",
+     "KA15",
+     "KI18"
+    ],
+    [
+     "K005",
+     "KA07",
+     "KA22",
+     "KI05",
+     "KI21"
+    ],
+    [
+     "K006",
+     "KA03",
+     "KA08",
+     "KA30",
+     "KI08"
+    ]
+   ],
+   "composition": {
+    "test": {
+     "n": 7,
+     "class": {
+      "healthy": 1,
+      "outer": 3,
+      "inner": 3
+     },
+     "origin": {
+      "healthy:none": 1,
+      "outer:real": 1,
+      "outer:artificial": 2,
+      "inner:artificial": 2,
+      "inner:real": 1
+     },
+     "campaign_year": {
+      "2015": 2,
+      "2014": 5
+     },
+     "manufacturer": {
+      "IBU": 4,
+      "FAG": 1,
+      "MTK": 2
+     }
+    },
+    "validation": {
+     "n": 5,
+     "class": {
+      "healthy": 1,
+      "outer": 2,
+      "inner": 2
+     },
+     "origin": {
+      "healthy:none": 1,
+      "outer:artificial": 1,
+      "outer:real": 1,
+      "inner:artificial": 1,
+      "inner:real": 1
+     },
+     "campaign_year": {
+      "2015": 2,
+      "2014": 3
+     },
+     "manufacturer": {
+      "IBU": 1,
+      "MTK": 3,
+      "FAG": 1
+     }
+    },
+    "train": {
+     "n": 15,
+     "class": {
+      "healthy": 4,
+      "outer": 7,
+      "inner": 4
+     },
+     "origin": {
+      "healthy:none": 4,
+      "outer:artificial": 4,
+      "outer:real": 3,
+      "inner:artificial": 2,
+      "inner:real": 2
+     },
+     "campaign_year": {
+      "2015": 7,
+      "2014": 8
+     },
+     "manufacturer": {
+      "IBU": 9,
+      "MTK": 3,
+      "FAG": 2,
+      "IBU / IBB": 1
+     }
+    }
+   }
+  },
+  {
+   "fold": 2,
+   "test": [
+    "K004",
+    "KA01",
+    "KA05",
+    "KA15",
+    "KA30",
+    "KI08",
+    "KI21"
+   ],
+   "validation": [
+    "K006",
+    "KA06",
+    "KA22",
+    "KI01",
+    "KI17"
+   ],
+   "train": [
+    "K001",
+    "K002",
+    "K003",
+    "K005",
+    "KA03",
+    "KA04",
+    "KA07",
+    "KA08",
+    "KA09",
+    "KA16",
+    "KI03",
+    "KI05",
+    "KI07",
+    "KI16",
+    "KI18"
+   ],
+   "bridge_folds": [
+    [
+     "K001",
+     "K002",
+     "KA08",
+     "KA09",
+     "KI03"
+    ],
+    [
+     "K003",
+     "KA03",
+     "KA04",
+     "KI07",
+     "KI16"
+    ],
+    [
+     "K005",
+     "KA07",
+     "KA16",
+     "KI05",
+     "KI18"
+    ]
+   ],
+   "composition": {
+    "test": {
+     "n": 7,
+     "class": {
+      "healthy": 1,
+      "outer": 4,
+      "inner": 2
+     },
+     "origin": {
+      "healthy:none": 1,
+      "outer:artificial": 2,
+      "outer:real": 2,
+      "inner:artificial": 1,
+      "inner:real": 1
+     },
+     "campaign_year": {
+      "2015": 3,
+      "2014": 4
+     },
+     "manufacturer": {
+      "IBU": 3,
+      "MTK": 2,
+      "FAG": 2
+     }
+    },
+    "validation": {
+     "n": 5,
+     "class": {
+      "healthy": 1,
+      "outer": 2,
+      "inner": 2
+     },
+     "origin": {
+      "healthy:none": 1,
+      "outer:artificial": 1,
+      "outer:real": 1,
+      "inner:artificial": 1,
+      "inner:real": 1
+     },
+     "campaign_year": {
+      "2015": 2,
+      "2014": 3
+     },
+     "manufacturer": {
+      "IBU": 2,
+      "IBU / IBB": 1,
+      "MTK": 2
+     }
+    },
+    "train": {
+     "n": 15,
+     "class": {
+      "healthy": 4,
+      "outer": 6,
+      "inner": 5
+     },
+     "origin": {
+      "healthy:none": 4,
+      "outer:artificial": 4,
+      "outer:real": 2,
+      "inner:artificial": 3,
+      "inner:real": 2
+     },
+     "campaign_year": {
+      "2015": 6,
+      "2014": 9
+     },
+     "manufacturer": {
+      "IBU": 9,
+      "MTK": 4,
+      "FAG": 2
+     }
+    }
+   }
+  }
+ ]
+}

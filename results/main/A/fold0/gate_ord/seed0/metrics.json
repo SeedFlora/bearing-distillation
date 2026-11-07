@@ -1,0 +1,368 @@
+{
+ "method": "gate_ord",
+ "seed": 0,
+ "hp": {
+  "lambda": 1.0,
+  "tau_scale": 1.0,
+  "eps": 0.05
+ },
+ "train": {
+  "best_epoch": 2,
+  "best_val_recording_macro_f1": 0.340940612785273,
+  "train_seconds": 7.9,
+  "checkpoint_hash": "fbfdb820d510d643"
+ },
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 1.9773686200800076,
+   "val_recording_macro_f1": 0.19047619047619047,
+   "elapsed_s": 0.6
+  },
+  {
+   "epoch": 1,
+   "train_loss": 1.567959083637721,
+   "val_recording_macro_f1": 0.19047619047619047,
+   "elapsed_s": 1.2
+  },
+  {
+   "epoch": 2,
+   "train_loss": 1.406600384645059,
+   "val_recording_macro_f1": 0.340940612785273,
+   "elapsed_s": 1.8
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.1252306002966115,
+   "val_recording_macro_f1": 0.29843420922347375,
+   "elapsed_s": 2.4
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.9983577182595159,
+   "val_recording_macro_f1": 0.2506693609497348,
+   "elapsed_s": 3.0
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.9223095371689595,
+   "val_recording_macro_f1": 0.30578710850399643,
+   "elapsed_s": 3.6
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.8591643941234535,
+   "val_recording_macro_f1": 0.3168619725503378,
+   "elapsed_s": 4.2
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.8181005388918058,
+   "val_recording_macro_f1": 0.2948762635064482,
+   "elapsed_s": 4.9
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.7690073705055345,
+   "val_recording_macro_f1": 0.30889212135040833,
+   "elapsed_s": 5.5
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.7267460033927166,
+   "val_recording_macro_f1": 0.22077922077922077,
+   "elapsed_s": 6.1
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.7117688689433354,
+   "val_recording_macro_f1": 0.2711171136407486,
+   "elapsed_s": 6.6
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.6869101633488293,
+   "val_recording_macro_f1": 0.25614068024656594,
+   "elapsed_s": 7.3
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.667986941169685,
+   "val_recording_macro_f1": 0.28749240105921503,
+   "elapsed_s": 7.9
+  }
+ ],
+ "test_metrics": {
+  "recording": {
+   "macro_f1": 0.41357295839945,
+   "balanced_accuracy": 0.4244595536959554,
+   "recall": [
+    0.175,
+    0.6108786610878661,
+    0.4875
+   ],
+   "confusion": [
+    [
+     28,
+     92,
+     40
+    ],
+    [
+     0,
+     146,
+     93
+    ],
+    [
+     0,
+     82,
+     78
+    ]
+   ],
+   "n": 559
+  },
+  "window": {
+   "macro_f1": 0.41907172281350474,
+   "balanced_accuracy": 0.4220575517166412,
+   "recall": [
+    0.2181391712275215,
+    0.5644654088050315,
+    0.4835680751173709
+   ],
+   "confusion": [
+    [
+     279,
+     626,
+     374
+    ],
+    [
+     16,
+     1077,
+     815
+    ],
+    [
+     22,
+     638,
+     618
+    ]
+   ],
+   "n": 4465
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.35185185185185186,
+   "N15_M01_F10": 0.4660543698791493,
+   "N15_M07_F04": 0.37768664084453557,
+   "N15_M07_F10": 0.4327342047930283
+  },
+  "recording_accuracy_by_bearing": {
+   "K002": 0.0,
+   "K006": 0.35,
+   "KA03": 0.1875,
+   "KA08": 0.8227848101265823,
+   "KA22": 0.825,
+   "KI05": 0.8125,
+   "KI18": 0.1625
+  }
+ },
+ "n_parameters_deployed": 14083,
+ "val_metrics": {
+  "recording": {
+   "macro_f1": 0.340940612785273,
+   "balanced_accuracy": 0.37916666666666665,
+   "recall": [
+    0.0,
+    0.60625,
+    0.53125
+   ],
+   "confusion": [
+    [
+     0,
+     80,
+     0
+    ],
+    [
+     0,
+     97,
+     63
+    ],
+    [
+     0,
+     75,
+     85
+    ]
+   ],
+   "n": 400
+  },
+  "window": {
+   "macro_f1": 0.32395806030410806,
+   "balanced_accuracy": 0.35666517301984674,
+   "recall": [
+    0.0078125,
+    0.5301016419077405,
+    0.5320813771517997
+   ],
+   "confusion": [
+    [
+     5,
+     606,
+     29
+    ],
+    [
+     8,
+     678,
+     593
+    ],
+    [
+     4,
+     594,
+     680
+    ]
+   ],
+   "n": 3197
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.34106634106634104,
+   "N15_M01_F10": 0.3703703703703704,
+   "N15_M07_F04": 0.3137060860959921,
+   "N15_M07_F10": 0.31675153414283846
+  },
+  "recording_accuracy_by_bearing": {
+   "K005": 0.0,
+   "KA09": 0.925,
+   "KA30": 0.2875,
+   "KI08": 0.775,
+   "KI16": 0.2875
+  }
+ },
+ "ext_metrics": {
+  "recording": {
+   "macro_f1": 0.21659634317862164,
+   "balanced_accuracy": 0.48125,
+   "recall": [
+    0.0,
+    0.0,
+    0.48125
+   ],
+   "confusion": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     5,
+     78,
+     77
+    ]
+   ],
+   "n": 160
+  },
+  "window": {
+   "macro_f1": 0.20936048588781708,
+   "balanced_accuracy": 0.4578125,
+   "recall": [
+    0.0,
+    0.0,
+    0.4578125
+   ],
+   "confusion": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     86,
+     608,
+     586
+    ]
+   ],
+   "n": 1280
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.2222222222222222,
+   "N15_M01_F10": 0.2222222222222222,
+   "N15_M07_F04": 0.20689655172413793,
+   "N15_M07_F10": 0.21468926553672316
+  },
+  "recording_accuracy_by_bearing": {
+   "KI04": 0.9625,
+   "KI14": 0.0
+  }
+ },
+ "selection_trials": [
+  {
+   "hp": {
+    "lambda": 0.5,
+    "tau_scale": 1.0,
+    "eps": 0.05
+   },
+   "val_recording_macro_f1": 0.33542716530790334
+  },
+  {
+   "hp": {
+    "lambda": 0.5,
+    "tau_scale": 1.0,
+    "eps": 0.2
+   },
+   "val_recording_macro_f1": 0.31642768840699537
+  },
+  {
+   "hp": {
+    "lambda": 0.5,
+    "tau_scale": 2.0,
+    "eps": 0.05
+   },
+   "val_recording_macro_f1": 0.291820614680853
+  },
+  {
+   "hp": {
+    "lambda": 0.5,
+    "tau_scale": 2.0,
+    "eps": 0.2
+   },
+   "val_recording_macro_f1": 0.32528379772961813
+  },
+  {
+   "hp": {
+    "lambda": 1.0,
+    "tau_scale": 1.0,
+    "eps": 0.05
+   },
+   "val_recording_macro_f1": 0.340940612785273
+  },
+  {
+   "hp": {
+    "lambda": 1.0,
+    "tau_scale": 1.0,
+    "eps": 0.2
+   },
+   "val_recording_macro_f1": 0.3127787073747723
+  },
+  {
+   "hp": {
+    "lambda": 1.0,
+    "tau_scale": 2.0,
+    "eps": 0.05
+   },
+   "val_recording_macro_f1": 0.30354609929078014
+  },
+  {
+   "hp": {
+    "lambda": 1.0,
+    "tau_scale": 2.0,
+    "eps": 0.2
+   },
+   "val_recording_macro_f1": 0.3150617283950617
+  }
+ ]
+}

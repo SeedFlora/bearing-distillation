@@ -1,0 +1,37 @@
+{
+ "status": "frozen",
+ "seed": 20261107,
+ "bearings": [
+  "K001",
+  "K005",
+  "KA07",
+  "KA16",
+  "KI01",
+  "KI16"
+ ],
+ "composition": {
+  "n": 6,
+  "class": {
+   "healthy": 2,
+   "outer": 2,
+   "inner": 2
+  },
+  "origin": {
+   "healthy:none": 2,
+   "outer:artificial": 1,
+   "outer:real": 1,
+   "inner:artificial": 1,
+   "inner:real": 1
+  },
+  "campaign_year": {
+   "2015": 3,
+   "2014": 3
+  },
+  "manufacturer": {
+   "IBU": 3,
+   "MTK": 2,
+   "FAG": 1
+  }
+ },
+ "use": "development pilot and coarse preprocessing/architecture choices only; never test evidence"
+}

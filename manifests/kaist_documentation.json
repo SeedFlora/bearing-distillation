@@ -1,0 +1,3189 @@
+{
+ "generated": "2026-11-07",
+ "project": "Transferability-Aware Cross-Modal Distillation for Current-Only Bearing Fault Diagnosis under Unseen Operating Conditions (B. Juarto, BINUS) - KAIST replication",
+ "report": "E:/bahrain/reports/data_source_kaist.md",
+ "sources": [
+  {
+   "key": "P",
+   "what": "Data in Brief paper (publisher PDF via PMC Open Access)",
+   "urls": [
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC10036499.1/PMC10036499.1.pdf",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10036499&rettype=xml",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10036499/"
+   ],
+   "access_level": "full_text",
+   "accessed": "2026-11-07",
+   "doi": "10.1016/j.dib.2023.109049",
+   "pmcid": "PMC10036499",
+   "pmid": "36969976",
+   "pdf_md5": "98979fb92cbfc27e17317a9de40ef3bc",
+   "pdf_sha256": "f945d78a8f42b5726ee7c2cfea9a5296c717d50dcbd5d37d1d39a6cc64070433",
+   "not_accessible": "https://www.sciencedirect.com/science/article/pii/S2352340923001671 (HTTP 403 robot check)"
+  },
+  {
+   "key": "CR",
+   "what": "Crossref metadata, BibTeX and corrections filter",
+   "urls": [
+    "https://api.crossref.org/works/10.1016/j.dib.2023.109049",
+    "https://api.crossref.org/works?filter=updates:10.1016/j.dib.2023.109049"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07"
+  },
+  {
+   "key": "PMCJ",
+   "what": "PMC OA metadata",
+   "urls": [
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC10036499.1/PMC10036499.1.json"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07"
+  },
+  {
+   "key": "M-VL",
+   "what": "Mendeley ztmf3m7h5x v6",
+   "urls": [
+    "https://data.mendeley.com/public-api/datasets/ztmf3m7h5x?version=6",
+    "https://data.mendeley.com/public-api/datasets/ztmf3m7h5x/files?folder_id=root&version=6",
+    "https://data.mendeley.com/public-api/datasets/ztmf3m7h5x/folders/6",
+    "https://data.mendeley.com/datasets/ztmf3m7h5x/6"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07"
+  },
+  {
+   "key": "M-S1",
+   "what": "Mendeley vxkj334rzv v7",
+   "urls": [
+    "https://data.mendeley.com/public-api/datasets/vxkj334rzv?version=7",
+    "https://data.mendeley.com/public-api/datasets/vxkj334rzv/files?folder_id=root&version=7",
+    "https://data.mendeley.com/public-api/datasets/vxkj334rzv/folders/7",
+    "https://data.mendeley.com/datasets/vxkj334rzv/7"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07"
+  },
+  {
+   "key": "M-S2",
+   "what": "Mendeley x3vhp8t6hg v7",
+   "urls": [
+    "https://data.mendeley.com/public-api/datasets/x3vhp8t6hg?version=7",
+    "https://data.mendeley.com/public-api/datasets/x3vhp8t6hg/files?folder_id=root&version=7",
+    "https://data.mendeley.com/public-api/datasets/x3vhp8t6hg/folders/7",
+    "https://data.mendeley.com/datasets/x3vhp8t6hg/7"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07"
+  },
+  {
+   "key": "M-S3",
+   "what": "Mendeley j8d8pfkvj2 v7",
+   "urls": [
+    "https://data.mendeley.com/public-api/datasets/j8d8pfkvj2?version=7",
+    "https://data.mendeley.com/public-api/datasets/j8d8pfkvj2/files?folder_id=root&version=7",
+    "https://data.mendeley.com/public-api/datasets/j8d8pfkvj2/folders/7",
+    "https://data.mendeley.com/datasets/j8d8pfkvj2/7"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07"
+  },
+  {
+   "key": "DC",
+   "what": "DataCite DOI records",
+   "urls": [
+    "https://api.datacite.org/dois/10.17632/ztmf3m7h5x.6",
+    "https://api.datacite.org/dois/10.17632/vxkj334rzv.7",
+    "https://api.datacite.org/dois/10.17632/x3vhp8t6hg.7",
+    "https://api.datacite.org/dois/10.17632/j8d8pfkvj2.7"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07"
+  },
+  {
+   "key": "D-VL",
+   "what": "Legacy Description_v1.pdf (varying load), present only in ztmf3m7h5x v2-v4",
+   "urls": [
+    "https://data.mendeley.com/public-files/datasets/ztmf3m7h5x/files/307fc169-402f-4baa-955d-17c998e5f67b/file_downloaded"
+   ],
+   "access_level": "full_text",
+   "accessed": "2026-11-07",
+   "size_bytes": 942199,
+   "sha256": "011f25ab1908aae51c57230b690a6f6fe4052146a65b4b4a3b1eae65cc962d81"
+  },
+  {
+   "key": "D-VS",
+   "what": "Legacy Description_v1.pdf (varying speed), identical copies in vxkj334rzv v2-v4, x3vhp8t6hg v2-v3, j8d8pfkvj2 v2-v3",
+   "urls": [
+    "https://data.mendeley.com/public-files/datasets/vxkj334rzv/files/6d017841-c794-4b7c-a21e-3465623fabca/file_downloaded"
+   ],
+   "access_level": "full_text",
+   "accessed": "2026-11-07",
+   "size_bytes": 1700019,
+   "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+  },
+  {
+   "key": "NI9211",
+   "what": "NI 9211 product page",
+   "urls": [
+    "https://www.ni.com/en-us/shop/model/ni-9211.html"
+   ],
+   "access_level": "full_text",
+   "accessed": "2026-11-07",
+   "verbatim": "4-Channel, 14 S/s, ±80 mV C Series Temperature Input Module"
+  },
+  {
+   "key": "NI9210",
+   "what": "NI 9210 product page",
+   "urls": [
+    "https://www.ni.com/en-us/shop/model/ni-9210.html"
+   ],
+   "access_level": "full_text",
+   "accessed": "2026-11-07",
+   "verbatim": "4-Channel, 14 S/s Aggregate, ±80 mV C Series Temperature Input Module"
+  },
+  {
+   "key": "NI9775",
+   "what": "NI 9775 product page",
+   "urls": [
+    "https://www.ni.com/en-us/shop/model/ni-9775.html"
+   ],
+   "access_level": "full_text",
+   "accessed": "2026-11-07",
+   "verbatim": "±10 V, Up to 20 MS/s/ch, 14-Bit, 4-Channel C Series Digitizer Module"
+  },
+  {
+   "key": "HIOKI",
+   "what": "Hioki CT6700 product page",
+   "urls": [
+    "https://www.hioki.com/sg-en/products/current-probes/wide-band/id_6079"
+   ],
+   "access_level": "full_text",
+   "accessed": "2026-11-07",
+   "verbatim": [
+    "Frequency bandwidth DC to 50 MHz (-3 dB)",
+    "Continuous allowable input 5 A rms",
+    "Max. allowable peak input ±7.5 A peak (non-continuous)",
+    "Output rate 1 V/A"
+   ]
+  },
+  {
+   "key": "IECON",
+   "what": "Kim, Jung, Lim, Park, IECON 2022 (related article cited by P)",
+   "urls": [
+    "https://api.crossref.org/works/10.1109/IECON49645.2022.9969003"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07",
+   "doi": "10.1109/IECON49645.2022.9969003"
+  },
+  {
+   "key": "GH",
+   "what": "GitHub account linked from varying-speed records",
+   "urls": [
+    "https://api.github.com/users/wonho1456",
+    "https://api.github.com/users/wonho1456/repos"
+   ],
+   "access_level": "metadata",
+   "accessed": "2026-11-07",
+   "finding": "public_repos = 0"
+  },
+  {
+   "key": "LOCAL",
+   "what": "Local copies of the three varying-load zips (D:/bahrain-data/raw/kaist/), SHA-256 recomputed 2026-11-07 = published; read-only metadata inspection",
+   "urls": [
+    "D:/bahrain-data/raw/kaist/acoustic.zip",
+    "D:/bahrain-data/raw/kaist/current,temp.zip",
+    "D:/bahrain-data/raw/kaist/vibration.zip"
+   ],
+   "access_level": "data files (metadata-level read)",
+   "accessed": "2026-11-07"
+  }
+ ],
+ "paper": {
+  "doi": "10.1016/j.dib.2023.109049",
+  "title": "Vibration, acoustic, temperature, and motor current dataset of rotating machine under varying operating conditions for fault diagnosis",
+  "authors": [
+   "Wonho Jung",
+   "Seong-Hu Kim",
+   "Sung-Hyun Yun",
+   "Jaewoong Bae",
+   "Yong-Hwa Park"
+  ],
+  "journal": "Data in Brief",
+  "volume": "48",
+  "article_number": "109049",
+  "issue_date": "2023-06",
+  "pages_pdf": 19,
+  "history": {
+   "received": "2023-02-17",
+   "accepted": "2023-03-02",
+   "available_online": "2023-03-09"
+  },
+  "licence": "CC BY 4.0",
+  "corrections_or_retractions": "none found (Crossref updates filter: 0; PMC OA is_retracted=false; PubMed no CommentsCorrections) as of 2026-11-07",
+  "crossref_is_supplemented_by": [
+   "https://data.mendeley.com/datasets/ztmf3m7h5x",
+   "https://data.mendeley.com/datasets/vxkj334rzv",
+   "https://data.mendeley.com/datasets/x3vhp8t6hg",
+   "https://data.mendeley.com/datasets/j8d8pfkvj2"
+  ],
+  "access_level": "full_text"
+ },
+ "mendeley_records": [
+  {
+   "source_key": "M-VL",
+   "record_id": "ztmf3m7h5x",
+   "version": 6,
+   "latest_version_on_2026-11-07": 6,
+   "doi": "10.17632/ztmf3m7h5x.6",
+   "title": "Vibration, Acoustic, Temperature, and Motor Current Dataset of Rotating Machine Under Varying Load Conditions for Fault Diagnosis",
+   "publish_date": "2023-02-08T10:58:38.145Z",
+   "licence": {
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "url": "http://creativecommons.org/licenses/by/4.0"
+   },
+   "contributors_mendeley": [
+    "Wonho Jung",
+    "Seong-Hu Kim",
+    "SungHyun Yun",
+    "Jaewoong Bae",
+    "Yong-Hwa Park"
+   ],
+   "creators_datacite": [
+    "Wonho Jung"
+   ],
+   "related_links": [],
+   "articles_field": [],
+   "api_urls": {
+    "metadata": "https://data.mendeley.com/public-api/datasets/ztmf3m7h5x?version=6",
+    "files": "https://data.mendeley.com/public-api/datasets/ztmf3m7h5x/files?folder_id=root&version=6",
+    "folders": "https://data.mendeley.com/public-api/datasets/ztmf3m7h5x/folders/6",
+    "landing": "https://data.mendeley.com/datasets/ztmf3m7h5x/6",
+    "datacite": "https://api.datacite.org/dois/10.17632/ztmf3m7h5x.6"
+   },
+   "subfolders": [],
+   "files": [
+    {
+     "filename": "acoustic.zip",
+     "file_id": "99f03ffd-04f9-4676-932a-4312284cbc18",
+     "size_bytes": 47205730,
+     "sha256_published": "5dd1371ccec00729498e2d151df13593f6400fdced8895481ff6a8a945a5962f",
+     "content_type": "application/x-zip-compressed",
+     "created_date": "2022-08-15T06:42:55.562Z",
+     "download_url": "https://data.mendeley.com/public-files/datasets/ztmf3m7h5x/files/99f03ffd-04f9-4676-932a-4312284cbc18/file_downloaded"
+    },
+    {
+     "filename": "current,temp.zip",
+     "file_id": "4fe7c7e8-9a77-4bef-b359-d762b6a3a044",
+     "size_bytes": 1547790068,
+     "sha256_published": "7caa22152ff1fd673a6a3a9614f95fabd2890c6aea0860b40a1f5b27eabb59d6",
+     "content_type": "application/x-zip-compressed",
+     "created_date": "2022-08-15T06:50:27.409Z",
+     "download_url": "https://data.mendeley.com/public-files/datasets/ztmf3m7h5x/files/4fe7c7e8-9a77-4bef-b359-d762b6a3a044/file_downloaded"
+    },
+    {
+     "filename": "vibration.zip",
+     "file_id": "ee98c5d9-1052-4448-84b2-ed57711b658d",
+     "size_bytes": 2659778162,
+     "sha256_published": "df73fa80371a2ad3c983825044447b7772fcefd1db2ac409b2b298b533e4659f",
+     "content_type": "application/x-zip-compressed",
+     "created_date": "2022-08-15T06:56:52.697Z",
+     "download_url": "https://data.mendeley.com/public-files/datasets/ztmf3m7h5x/files/ee98c5d9-1052-4448-84b2-ed57711b658d/file_downloaded"
+    }
+   ],
+   "description_verbatim": "This dataset presents time-series dataset including vibration, acoustic, temperature, and motor current data for rotating machines under varying load conditions.  The conditions of the rotating machine include normal, bearing inner race faults, bearing outer race faults, shaft misalignment, and rotor unbalance with three different load conditions. \n\n---- Description of vibration file format ----\nVibration data file contains five columns namely ‘Time Stamp’, ‘x_direction_housing_A’, ‘y_direction_housing_A’, ‘x_direction_housing_B’, and ‘y_direction_housing_B’. The unit of the vibration is ‘gravitational constant (g)’. \n\naaaaNm_bbbb_cccc.mat : This file includes vibration data of the condition of \"bbbb\" with \"cccc\" of severity and \"aaaa\" load condition.\n\n\n\n---- Description of acoustic file format ----\nAcoustic data file contains two columns namely ‘Time Stamp’, and ‘values’. The unit of the acoustic is ‘Pascal (Pa)’.\n\naaaaNm_bbbb_cccc.mat : This file includes acoustic data of the condition of \"bbbb\" with \"cccc\" of severity and \"aaaa\" load condition.\n\n\n\n---- Description of temperature, and motor current file format ----\nTemperature and motor current data file contain six columns namely ‘Time Stamp’, ‘Temperature_housing_A’, ‘Temperature_housing_B’, ‘U-phase’, ‘V-phase’, and ‘W-phase’. The unit of the temperature and motor current are ‘Celsius (℃), and ‘ampere (A)’, respectively. \n\naaaaNm_bbbb_cccc.tdms : This file includes temperature and motor current data of the condition of \"bbbb\" with \"cccc\" of severity and \"aaaa\" load condition.\n\n\nFor more detailed information about this dataset, please check our article published in \"Data in Brief\".\nTitle: Vibration, Acoustic, Temperature, and Motor Current Dataset of Rotating Machine Under Varying Operating Conditions for Fault Diagnosis\nLink: https://www.sciencedirect.com/journal/data-in-brief",
+   "method_verbatim": "For more detailed information about this dataset, please check our article published in \"Data in Brief\".\nTitle: Vibration, Acoustic, Temperature, and Motor Current Dataset of Rotating Machine Under Varying Load Conditions for Fault Diagnosis\nLink: https://www.sciencedirect.com/journal/data-in-brief",
+   "version_history": [
+    {
+     "version": 1,
+     "publish_date": "2022-08-15T18:16:12.903Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "acoustic.zip",
+       "size": 47205730,
+       "sha256": "5dd1371ccec00729498e2d151df13593f6400fdced8895481ff6a8a945a5962f"
+      },
+      {
+       "filename": "current,temp.zip",
+       "size": 1547790068,
+       "sha256": "7caa22152ff1fd673a6a3a9614f95fabd2890c6aea0860b40a1f5b27eabb59d6"
+      },
+      {
+       "filename": "vibration.zip",
+       "size": 2659778162,
+       "sha256": "df73fa80371a2ad3c983825044447b7772fcefd1db2ac409b2b298b533e4659f"
+      }
+     ]
+    },
+    {
+     "version": 2,
+     "publish_date": "2022-10-18T19:12:16.778Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "acoustic.zip",
+       "size": 47205730,
+       "sha256": "5dd1371ccec00729498e2d151df13593f6400fdced8895481ff6a8a945a5962f"
+      },
+      {
+       "filename": "current,temp.zip",
+       "size": 1547790068,
+       "sha256": "7caa22152ff1fd673a6a3a9614f95fabd2890c6aea0860b40a1f5b27eabb59d6"
+      },
+      {
+       "filename": "Description_v1.pdf",
+       "size": 942199,
+       "sha256": "011f25ab1908aae51c57230b690a6f6fe4052146a65b4b4a3b1eae65cc962d81"
+      },
+      {
+       "filename": "vibration.zip",
+       "size": 2659778162,
+       "sha256": "df73fa80371a2ad3c983825044447b7772fcefd1db2ac409b2b298b533e4659f"
+      }
+     ]
+    },
+    {
+     "version": 3,
+     "publish_date": "2022-10-18T19:55:27.04Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "acoustic.zip",
+       "size": 47205730,
+       "sha256": "5dd1371ccec00729498e2d151df13593f6400fdced8895481ff6a8a945a5962f"
+      },
+      {
+       "filename": "current,temp.zip",
+       "size": 1547790068,
+       "sha256": "7caa22152ff1fd673a6a3a9614f95fabd2890c6aea0860b40a1f5b27eabb59d6"
+      },
+      {
+       "filename": "Description_v1.pdf",
+       "size": 942199,
+       "sha256": "011f25ab1908aae51c57230b690a6f6fe4052146a65b4b4a3b1eae65cc962d81"
+      },
+      {
+       "filename": "vibration.zip",
+       "size": 2659778162,
+       "sha256": "df73fa80371a2ad3c983825044447b7772fcefd1db2ac409b2b298b533e4659f"
+      }
+     ]
+    },
+    {
+     "version": 4,
+     "publish_date": "2022-11-17T14:53:27.618Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "acoustic.zip",
+       "size": 47205730,
+       "sha256": "5dd1371ccec00729498e2d151df13593f6400fdced8895481ff6a8a945a5962f"
+      },
+      {
+       "filename": "current,temp.zip",
+       "size": 1547790068,
+       "sha256": "7caa22152ff1fd673a6a3a9614f95fabd2890c6aea0860b40a1f5b27eabb59d6"
+      },
+      {
+       "filename": "Description_v1.pdf",
+       "size": 942199,
+       "sha256": "011f25ab1908aae51c57230b690a6f6fe4052146a65b4b4a3b1eae65cc962d81"
+      },
+      {
+       "filename": "vibration.zip",
+       "size": 2659778162,
+       "sha256": "df73fa80371a2ad3c983825044447b7772fcefd1db2ac409b2b298b533e4659f"
+      }
+     ]
+    },
+    {
+     "version": 5,
+     "publish_date": "2023-02-06T14:19:24.069Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "acoustic.zip",
+       "size": 47205730,
+       "sha256": "5dd1371ccec00729498e2d151df13593f6400fdced8895481ff6a8a945a5962f"
+      },
+      {
+       "filename": "current,temp.zip",
+       "size": 1547790068,
+       "sha256": "7caa22152ff1fd673a6a3a9614f95fabd2890c6aea0860b40a1f5b27eabb59d6"
+      },
+      {
+       "filename": "vibration.zip",
+       "size": 2659778162,
+       "sha256": "df73fa80371a2ad3c983825044447b7772fcefd1db2ac409b2b298b533e4659f"
+      }
+     ]
+    },
+    {
+     "version": 6,
+     "publish_date": "2023-02-08T10:58:38.145Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "acoustic.zip",
+       "size": 47205730,
+       "sha256": "5dd1371ccec00729498e2d151df13593f6400fdced8895481ff6a8a945a5962f"
+      },
+      {
+       "filename": "current,temp.zip",
+       "size": 1547790068,
+       "sha256": "7caa22152ff1fd673a6a3a9614f95fabd2890c6aea0860b40a1f5b27eabb59d6"
+      },
+      {
+       "filename": "vibration.zip",
+       "size": 2659778162,
+       "sha256": "df73fa80371a2ad3c983825044447b7772fcefd1db2ac409b2b298b533e4659f"
+      }
+     ]
+    }
+   ],
+   "accessed": "2026-11-07"
+  },
+  {
+   "source_key": "M-S1",
+   "record_id": "vxkj334rzv",
+   "version": 7,
+   "latest_version_on_2026-11-07": 7,
+   "doi": "10.17632/vxkj334rzv.7",
+   "title": "Vibration and Motor Current Dataset of Rolling Element Bearing Under Varying Speed Conditions for Fault Diagnosis: Subset1",
+   "publish_date": "2023-02-08T10:51:08.888Z",
+   "licence": {
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "url": "http://creativecommons.org/licenses/by/4.0"
+   },
+   "contributors_mendeley": [
+    "Wonho Jung",
+    "Seong-Hu Kim",
+    "SungHyun Yun",
+    "Jaewoong Bae",
+    "Yong-Hwa Park"
+   ],
+   "creators_datacite": [
+    "Wonho Jung"
+   ],
+   "related_links": [
+    {
+     "type": "software",
+     "rel": "related_to",
+     "href": "https://github.com/wonho1456?tab=repositories"
+    }
+   ],
+   "articles_field": [],
+   "api_urls": {
+    "metadata": "https://data.mendeley.com/public-api/datasets/vxkj334rzv?version=7",
+    "files": "https://data.mendeley.com/public-api/datasets/vxkj334rzv/files?folder_id=root&version=7",
+    "folders": "https://data.mendeley.com/public-api/datasets/vxkj334rzv/folders/7",
+    "landing": "https://data.mendeley.com/datasets/vxkj334rzv/7",
+    "datacite": "https://api.datacite.org/dois/10.17632/vxkj334rzv.7"
+   },
+   "subfolders": [],
+   "files": [
+    {
+     "filename": "part1.zip",
+     "file_id": "3d93576c-d623-41fd-aecf-9308c69dbace",
+     "size_bytes": 10350759860,
+     "sha256_published": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7",
+     "content_type": "application/x-zip-compressed",
+     "created_date": "2022-08-15T09:52:17.647Z",
+     "download_url": "https://data.mendeley.com/public-files/datasets/vxkj334rzv/files/3d93576c-d623-41fd-aecf-9308c69dbace/file_downloaded"
+    }
+   ],
+   "description_verbatim": "This dataset discloses vibration and motor current data for bearing faults under varying speed conditions from 680 RPM to 2460 RPM. The bearing conditions include healthy bearing, bearings with inner race faults, and bearings with outer race faults. For each faulty bearing condition, the three-phase induction motor is operated under randomly varying speed conditions. \nImportant: Datasets are divided into three parts because of storage limitations (Subset1, Subset2, and Subset3). \n\n---- Description of vibration file format ----\nVibration data file contains five columns namely ‘Time Stamp’, ‘x_direction_housing_A’, ‘y_direction_housing_A’, ‘x_direction_housing_B’, and ‘y_direction_housing_B’. The unit of the vibration is ‘gravitational constant (g)’. \nvibration_aaaa_bbbb.csv : This file is \"bbbb\"-th vibration data includes rotating speed data of the condition of \"aaaa\".\n\n---- Description of motor current file format ----\nMotor current data file contains five columns namely ‘Time Stamp’, ‘R_phase’, ‘S_phase’, and ‘T_phase’. The unit of the motor current is ‘Ampare (A)’.\n\ncurrent_aaaa_bbbb.csv : This file is \"bbbb\"-th motor current data includes rotating speed data of the condition of \"aaaa\".\n\n---- Description of rotating speed file format ----\nRotating speed data file contains two columns namely ‘Time Stamp’, and ‘speed’. The unit of the acoustic is revolutions per minute (RPM)’.\nrpm_aaaa_bbbb.csv : This file is \"bbbb\"-th speed data includes rotating speed data of the condition of \"aaaa\".\n\n\nFor more detailed information, check our published paper.\nTitle: Vibration, Acoustic, Temperature, and Motor Current Dataset of Rotating Machine Under Varying Operating Conditions for Fault Diagnosis\nLink: https://www.sciencedirect.com/journal/data-in-brief",
+   "method_verbatim": "",
+   "version_history": [
+    {
+     "version": 1,
+     "publish_date": "2022-08-15T18:22:42.09Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part1.zip",
+       "size": 10350759860,
+       "sha256": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7"
+      }
+     ]
+    },
+    {
+     "version": 2,
+     "publish_date": "2022-10-18T19:08:23.84Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "Description_v1.pdf",
+       "size": 1700019,
+       "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+      },
+      {
+       "filename": "part1.zip",
+       "size": 10350759860,
+       "sha256": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7"
+      }
+     ]
+    },
+    {
+     "version": 3,
+     "publish_date": "2022-10-18T19:57:36.113Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "Description_v1.pdf",
+       "size": 1700019,
+       "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+      },
+      {
+       "filename": "part1.zip",
+       "size": 10350759860,
+       "sha256": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7"
+      }
+     ]
+    },
+    {
+     "version": 4,
+     "publish_date": "2022-11-17T14:51:12.052Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "Description_v1.pdf",
+       "size": 1700019,
+       "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+      },
+      {
+       "filename": "part1.zip",
+       "size": 10350759860,
+       "sha256": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7"
+      }
+     ]
+    },
+    {
+     "version": 5,
+     "publish_date": "2022-11-18T22:05:26.856Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part1.zip",
+       "size": 10350759860,
+       "sha256": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7"
+      }
+     ]
+    },
+    {
+     "version": 6,
+     "publish_date": "2023-02-06T14:18:56.7Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part1.zip",
+       "size": 10350759860,
+       "sha256": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7"
+      }
+     ]
+    },
+    {
+     "version": 7,
+     "publish_date": "2023-02-08T10:51:08.888Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part1.zip",
+       "size": 10350759860,
+       "sha256": "e0d6089fd132b4027866f0240232850503a3a788c6be5c0b7f2d52d535a42ba7"
+      }
+     ]
+    }
+   ],
+   "accessed": "2026-11-07"
+  },
+  {
+   "source_key": "M-S2",
+   "record_id": "x3vhp8t6hg",
+   "version": 7,
+   "latest_version_on_2026-11-07": 7,
+   "doi": "10.17632/x3vhp8t6hg.7",
+   "title": "Vibration and Motor Current Dataset of Rolling Element Bearing Under Varying Speed Conditions for Fault Diagnosis: Subset2",
+   "publish_date": "2023-02-09T13:51:46.805Z",
+   "licence": {
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "url": "http://creativecommons.org/licenses/by/4.0"
+   },
+   "contributors_mendeley": [
+    "Wonho Jung",
+    "Seong-Hu Kim",
+    "SungHyun Yun",
+    "Jaewoong Bae",
+    "Yong-Hwa Park"
+   ],
+   "creators_datacite": [
+    "Wonho Jung"
+   ],
+   "related_links": [
+    {
+     "type": "software",
+     "rel": "related_to",
+     "href": "https://github.com/wonho1456?tab=repositories"
+    }
+   ],
+   "articles_field": [],
+   "api_urls": {
+    "metadata": "https://data.mendeley.com/public-api/datasets/x3vhp8t6hg?version=7",
+    "files": "https://data.mendeley.com/public-api/datasets/x3vhp8t6hg/files?folder_id=root&version=7",
+    "folders": "https://data.mendeley.com/public-api/datasets/x3vhp8t6hg/folders/7",
+    "landing": "https://data.mendeley.com/datasets/x3vhp8t6hg/7",
+    "datacite": "https://api.datacite.org/dois/10.17632/x3vhp8t6hg.7"
+   },
+   "subfolders": [],
+   "files": [
+    {
+     "filename": "part2.zip",
+     "file_id": "81087668-a525-412d-892d-5d6bf1165da3",
+     "size_bytes": 5529338644,
+     "sha256_published": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09",
+     "content_type": "application/x-zip-compressed",
+     "created_date": "2022-08-15T09:45:01.381Z",
+     "download_url": "https://data.mendeley.com/public-files/datasets/x3vhp8t6hg/files/81087668-a525-412d-892d-5d6bf1165da3/file_downloaded"
+    }
+   ],
+   "description_verbatim": "This dataset discloses vibration and motor current data for bearing faults under varying speed conditions from 680 RPM to 2460 RPM. The bearing conditions include healthy bearing, bearings with inner race faults, and bearings with outer race faults. For each faulty bearing condition, the three-phase induction motor is operated under randomly varying speed conditions. \nImportant: Datasets are divided into three parts because of storage limitations (Subset1, Subset2, and Subset3). \n\n\n---- Description of vibration file format ----\nVibration data file contains five columns namely ‘Time Stamp’, ‘x_direction_housing_A’, ‘y_direction_housing_A’, ‘x_direction_housing_B’, and ‘y_direction_housing_B’. The unit of the vibration is ‘gravitational constant (g)’. \nvibration_aaaa_bbbb.csv : This file is \"bbbb\"-th vibration data includes rotating speed data of the condition of \"aaaa\".\n\n---- Description of motor current file format ----\nMotor current data file contains five columns namely ‘Time Stamp’, ‘R_phase’, ‘S_phase’, and ‘T_phase’. The unit of the motor current is ‘Ampare (A)’.\n\ncurrent_aaaa_bbbb.csv : This file is \"bbbb\"-th motor current data includes rotating speed data of the condition of \"aaaa\".\n\n---- Description of rotating speed file format ----\nRotating speed data file contains two columns namely ‘Time Stamp’, and ‘speed’. The unit of the acoustic is revolutions per minute (RPM)’.\nrpm_aaaa_bbbb.csv : This file is \"bbbb\"-th speed data includes rotating speed data of the condition of \"aaaa\".\n\n\nFor more detailed information, check our published paper.\nTitle: Vibration, Acoustic, Temperature, and Motor Current Dataset of Rotating Machine Under Varying Operating Conditions for Fault Diagnosis\nLink: https://www.sciencedirect.com/journal/data-in-brief",
+   "method_verbatim": "",
+   "version_history": [
+    {
+     "version": 1,
+     "publish_date": "2022-08-15T18:24:37.196Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part2.zip",
+       "size": 5529338644,
+       "sha256": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09"
+      }
+     ]
+    },
+    {
+     "version": 2,
+     "publish_date": "2022-10-18T19:10:22.314Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "Description_v1.pdf",
+       "size": 1700019,
+       "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+      },
+      {
+       "filename": "part2.zip",
+       "size": 5529338644,
+       "sha256": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09"
+      }
+     ]
+    },
+    {
+     "version": 3,
+     "publish_date": "2022-10-18T19:53:41.673Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "Description_v1.pdf",
+       "size": 1700019,
+       "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+      },
+      {
+       "filename": "part2.zip",
+       "size": 5529338644,
+       "sha256": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09"
+      }
+     ]
+    },
+    {
+     "version": 4,
+     "publish_date": "2022-11-17T14:51:56.11Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part2.zip",
+       "size": 5529338644,
+       "sha256": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09"
+      }
+     ]
+    },
+    {
+     "version": 5,
+     "publish_date": "2023-02-06T14:17:08.846Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part2.zip",
+       "size": 5529338644,
+       "sha256": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09"
+      }
+     ]
+    },
+    {
+     "version": 6,
+     "publish_date": "2023-02-08T10:46:15.332Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part2.zip",
+       "size": 5529338644,
+       "sha256": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09"
+      }
+     ]
+    },
+    {
+     "version": 7,
+     "publish_date": "2023-02-09T13:51:46.805Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part2.zip",
+       "size": 5529338644,
+       "sha256": "496b8031d22778b58cd66a35f9c1d7bf14b86940ebd6f73cebc94f4c88aded09"
+      }
+     ]
+    }
+   ],
+   "accessed": "2026-11-07"
+  },
+  {
+   "source_key": "M-S3",
+   "record_id": "j8d8pfkvj2",
+   "version": 7,
+   "latest_version_on_2026-11-07": 7,
+   "doi": "10.17632/j8d8pfkvj2.7",
+   "title": "Vibration and Motor Current Dataset of Rolling Element Bearing Under Varying Speed Conditions for Fault Diagnosis: Subset3",
+   "publish_date": "2023-02-09T13:51:42.526Z",
+   "licence": {
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "url": "http://creativecommons.org/licenses/by/4.0"
+   },
+   "contributors_mendeley": [
+    "Wonho Jung",
+    "Seong-Hu Kim",
+    "SungHyun Yun",
+    "Jaewoong Bae",
+    "Yong-Hwa Park"
+   ],
+   "creators_datacite": [
+    "Wonho Jung"
+   ],
+   "related_links": [
+    {
+     "type": "software",
+     "rel": "related_to",
+     "href": "https://github.com/wonho1456?tab=repositories"
+    }
+   ],
+   "articles_field": [],
+   "api_urls": {
+    "metadata": "https://data.mendeley.com/public-api/datasets/j8d8pfkvj2?version=7",
+    "files": "https://data.mendeley.com/public-api/datasets/j8d8pfkvj2/files?folder_id=root&version=7",
+    "folders": "https://data.mendeley.com/public-api/datasets/j8d8pfkvj2/folders/7",
+    "landing": "https://data.mendeley.com/datasets/j8d8pfkvj2/7",
+    "datacite": "https://api.datacite.org/dois/10.17632/j8d8pfkvj2.7"
+   },
+   "subfolders": [],
+   "files": [
+    {
+     "filename": "part3.zip",
+     "file_id": "4bd6fec3-69af-4ab0-9829-c1438ef95ef4",
+     "size_bytes": 5536452993,
+     "sha256_published": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a",
+     "content_type": "application/x-zip-compressed",
+     "created_date": "2022-08-15T09:44:56.625Z",
+     "download_url": "https://data.mendeley.com/public-files/datasets/j8d8pfkvj2/files/4bd6fec3-69af-4ab0-9829-c1438ef95ef4/file_downloaded"
+    }
+   ],
+   "description_verbatim": "This dataset discloses vibration and motor current data for bearing faults under varying speed conditions from 680 RPM to 2460 RPM. The bearing conditions include healthy bearing, bearings with inner race faults, and bearings with outer race faults. For each faulty bearing condition, the three-phase induction motor is operated under randomly varying speed conditions. \nImportant: Datasets are divided into three parts because of storage limitations (Subset1, Subset2, and Subset3). \n\n---- Description of vibration file format ----\nVibration data file contains five columns namely ‘Time Stamp’, ‘x_direction_housing_A’, ‘y_direction_housing_A’, ‘x_direction_housing_B’, and ‘y_direction_housing_B’. The unit of the vibration is ‘gravitational constant (g)’. \nvibration_aaaa_bbbb.csv : This file is \"bbbb\"-th vibration data includes rotating speed data of the condition of \"aaaa\".\n\n---- Description of motor current file format ----\nMotor current data file contains five columns namely ‘Time Stamp’, ‘R_phase’, ‘S_phase’, and ‘T_phase’. The unit of the motor current is ‘Ampare (A)’.\n\ncurrent_aaaa_bbbb.csv : This file is \"bbbb\"-th motor current data includes rotating speed data of the condition of \"aaaa\".\n\n---- Description of rotating speed file format ----\nRotating speed data file contains two columns namely ‘Time Stamp’, and ‘speed’. The unit of the acoustic is revolutions per minute (RPM)’.\nrpm_aaaa_bbbb.csv : This file is \"bbbb\"-th speed data includes rotating speed data of the condition of \"aaaa\".\n\n\nFor more detailed information, check our published paper.\nTitle: Vibration, Acoustic, Temperature, and Motor Current Dataset of Rotating Machine Under Varying Operating Conditions for Fault Diagnosis\nLink: https://www.sciencedirect.com/journal/data-in-brief",
+   "method_verbatim": "",
+   "version_history": [
+    {
+     "version": 1,
+     "publish_date": "2022-08-15T18:21:40.022Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part3.zip",
+       "size": 5536452993,
+       "sha256": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a"
+      }
+     ]
+    },
+    {
+     "version": 2,
+     "publish_date": "2022-10-18T19:41:52.243Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "Description_v1.pdf",
+       "size": 1700019,
+       "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+      },
+      {
+       "filename": "part3.zip",
+       "size": 5536452993,
+       "sha256": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a"
+      }
+     ]
+    },
+    {
+     "version": 3,
+     "publish_date": "2022-10-18T19:53:18.464Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "Description_v1.pdf",
+       "size": 1700019,
+       "sha256": "e28b227e3bb18b7ab4815967dcc1b8f7866f258456fc99a08bd3658dda76c25e"
+      },
+      {
+       "filename": "part3.zip",
+       "size": 5536452993,
+       "sha256": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a"
+      }
+     ]
+    },
+    {
+     "version": 4,
+     "publish_date": "2022-11-17T14:48:48.946Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part3.zip",
+       "size": 5536452993,
+       "sha256": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a"
+      }
+     ]
+    },
+    {
+     "version": 5,
+     "publish_date": "2023-02-06T14:20:47.127Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part3.zip",
+       "size": 5536452993,
+       "sha256": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a"
+      }
+     ]
+    },
+    {
+     "version": 6,
+     "publish_date": "2023-02-08T10:46:46.683Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part3.zip",
+       "size": 5536452993,
+       "sha256": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a"
+      }
+     ]
+    },
+    {
+     "version": 7,
+     "publish_date": "2023-02-09T13:51:42.526Z",
+     "licence": "CC BY 4.0",
+     "files": [
+      {
+       "filename": "part3.zip",
+       "size": 5536452993,
+       "sha256": "8b0f95eaccaa8f0c2ed73fb3ce19e319234cbcb2b8b3470a091ea4eb9394b22a"
+      }
+     ]
+    }
+   ],
+   "accessed": "2026-11-07"
+  }
+ ],
+ "documented": {
+  "testbed": {
+   "components": {
+    "value": "three-phase induction motor, torque meter, gearbox, bearing housing A, bearing housing B, rotors, hysteresis brake",
+    "loc": "P p.14 §3.1; Fig. 5"
+   },
+   "motor": {
+    "value": "Siemens, 4-pole, 3 HP, 380 V, 60 Hz, rated 1770 rpm",
+    "loc": "P p.14 §3.1"
+   },
+   "gearbox": {
+    "value": "speed-up x2.07, up to 3663 rpm",
+    "loc": "P p.14 §3.1"
+   },
+   "operating_speed_varying_load": {
+    "value_rpm": 3010,
+    "quote": "To avoid signal overlap with the driving frequency of 60 Hz, this dataset was operated at 3010 rpm.",
+    "loc": "P p.14 §3.1; also p.4 §2 and Table 2 p.17",
+    "ambiguity": "p.4 says \"The main motor rotates at a rated rotating speed of 3010 RPM\" although the motor is rated 1770 rpm with a x2.07 gearbox"
+   },
+   "load": {
+    "values_Nm": [
+     0,
+     2,
+     4
+    ],
+    "brake": "hysteresis brake AHB-3A, Valid Magnetic Ltd., air-cooled",
+    "torque_meter": "M425, Datum Electronics",
+    "loc": "P p.14 §3.1; p.4 §2",
+    "not_documented": "whether the Nm values are brake torque or the torque-meter (motor-side) reading"
+   },
+   "bearing_varying_load": {
+    "model": "NSK 6205 DDU",
+    "d_mm": 7.9,
+    "D_mm": 38.5,
+    "contact_angle_deg": 0,
+    "N_balls": 9,
+    "fs_Hz": 50.17,
+    "FTF_Hz": 19.94,
+    "BPFI_Hz": 272.07,
+    "BPFO_Hz": 179.43,
+    "BSF_Hz": 234.19,
+    "loc": "P p.15 §3.2, Table 1"
+   },
+   "bearing_faults_varying_load": {
+    "types": [
+     "inner race",
+     "outer race"
+    ],
+    "crack_sizes_mm": [
+     0.3,
+     1.0,
+     3.0
+    ],
+    "location": "bearing housing A",
+    "method": "not documented (Fig. 6 photos show a single transverse notch)",
+    "quote": "The corresponding fault-seeded bearing was installed in the bearing housing A.",
+    "loc": "P p.15 §3.2; Fig. 6 p.15"
+   },
+   "misalignment": {
+    "type": "parallel, shaft moved at housing A",
+    "values_mm": [
+     0.1,
+     0.3,
+     0.5
+    ],
+    "loc": "P p.15; Fig. 7 p.16"
+   },
+   "unbalance": {
+    "location": "4th rotor disk (closest to housing A)",
+    "masses_mg": [
+     583,
+     1169,
+     1751,
+     2239,
+     3318
+    ],
+    "radius": "not documented",
+    "loc": "P p.15; Fig. 8 p.16"
+   },
+   "bearing_varying_speed": {
+    "model": "type 6205 steel NSK ball bearing",
+    "states": [
+     "normal",
+     "inner race",
+     "outer race",
+     "ball"
+    ],
+    "method": "spalling surface of ball bearing using diamond tips",
+    "defect_sizes": "not documented",
+    "loc": "P pp.15-16 §3.2; Fig. 9 p.18; D-VS p.12"
+   },
+   "speed_varying_speed": {
+    "range_rpm": [
+     680,
+     2460
+    ],
+    "profile": "randomly varying, no load; simulated by adjusting the motor frequency",
+    "constant_reference_rpm": 3010,
+    "loc": "P p.1, p.2, p.16, Table 3 p.17",
+    "ambiguity": "rpm files described as \"rotating speed of main motor\" (P pp.9-10); motor vs gearbox-output reference not defined"
+   }
+  },
+  "acquisition_varying_load": {
+   "vibration": {
+    "sensors": "4 x PCB352C34 ceramic shear ICP accelerometers, x and y at housings A and B",
+    "daq": "Siemens SCADAS Mobile 5PM50",
+    "fs_Hz": 25600,
+    "duration_s": "120 normal / 60 faulty (documented)",
+    "loc": "P p.2, p.4 §2, Table 2 p.17"
+   },
+   "acoustic": {
+    "sensor": "PCB378B02 microphone near housing A (ISO 8528-10)",
+    "daq": "Siemens SCADAS Mobile 5PM50",
+    "fs_Hz": 51200,
+    "loads": "0 Nm only",
+    "files": [
+     "0Nm_Normal",
+     "0Nm_BPFI_03",
+     "0Nm_BPFI_10",
+     "0Nm_BPFO_03",
+     "0Nm_BPFO_10"
+    ],
+    "duration_s": 60,
+    "loc": "P p.4, p.6, Table 2 p.17"
+   },
+   "temperature": {
+    "sensors": "2 x K-type thermocouples (one per housing)",
+    "daq_section2": "NI9211",
+    "daq_spec_table": "NI 9775",
+    "fs_documented_Hz": 25600,
+    "loc": "P p.4 §2 vs p.2"
+   },
+   "current": {
+    "sensors": "3 x Hioki CT6700 on U, V, W phases",
+    "daq_section2": "NI9775",
+    "daq_spec_table": "NI 9211",
+    "fs_documented_Hz": 25600,
+    "loc": "P p.4 §2 vs p.2; p.14 §3.1"
+   }
+  },
+  "acquisition_varying_speed": {
+   "vibration": {
+    "sensors": "4 x PCB352C34",
+    "daq": "Siemens SCADAS Mobile 5PM50",
+    "fs_Hz": 25600,
+    "constant_speed": "600 s per state at 3010 rpm (housing A), 1 file",
+    "varying_speed": "2,100 s per state = 7 files x 300 s (housing B)",
+    "loc": "P p.9; Table 3 p.17"
+   },
+   "current": {
+    "sensors": "3 x Hioki CT6700 (R, S, T)",
+    "daq": "NI9775",
+    "fs_Hz": 100000,
+    "varying_speed": "7 files x 300 s per state; no constant-speed current listed",
+    "loc": "P p.9; Table 3 p.17"
+   },
+   "speed": {
+    "sensor": "Autonics FD-620-10 tachometer (\"laser-based\" in D-VS p.1)",
+    "daq": "not documented",
+    "fs": "not documented",
+    "loc": "P p.2; p.9"
+   }
+  },
+  "synchronisation_quotes": [
+   {
+    "quote": "Vibration data were measured using four accelerometers (PCB352C34) at two bearing housings (A, B) in the x-direction and y-direction, simultaneously.",
+    "loc": "P p.4 §2",
+    "scope": "accelerometers only"
+   },
+   {
+    "quote": "...however, it needs to collect synchronized speed data with vibration [5].",
+    "loc": "P p.3 Value of the Data"
+   },
+   {
+    "quote": "Synchronized speed data and vibration data under constant speed conditions are also provided [2].",
+    "loc": "P p.3 Value of the Data"
+   },
+   {
+    "quote": "To support more details in this dataset, synchronized speed data are also provided.",
+    "loc": "P p.9 (also D-VS p.3)"
+   },
+   {
+    "quote": "Temperature and motor current data are collected from NI DAQ in the same way as vibration and acoustic.",
+    "loc": "D-VL p.2 Spec. table",
+    "note": "ambiguous; not a synchronisation statement"
+   }
+  ],
+  "synchronisation_not_documented": [
+   "shared clock/trigger between Siemens SCADAS (vibration, acoustic) and NI (current, temperature)",
+   "time offset between vibration and current files",
+   "which DAQ recorded the tachometer and what the speed is synchronised to",
+   "meaning/units/epoch of \"Time Stamp\"",
+   "time zone",
+   "whether acoustic is simultaneous with vibration",
+   "how slow thermocouple data are placed on a 25.6 kHz time base"
+  ],
+  "experimental_units": {
+   "documented": [
+    "one fault-seeded bearing per condition installed in housing A (\"The corresponding fault-seeded bearing\", P p.15 §3.2)",
+    "Fig. 6 shows one bearing per race x crack size (P p.15)",
+    "one file per load x condition x severity: 45 vibration MAT, 45 TDMS, 5 acoustic MAT (P pp.4-8; M-VL)",
+    "varying speed: Fig. 9 one bearing per state (P p.18); 1 constant-speed file (600 s) + 7 varying-speed files (300 s) per state (P p.9; D-VS p.3); constant-speed location housing A, varying-speed housing B (Table 3 p.17)"
+   ],
+   "not_documented": [
+    "number of physical bearings per class/severity",
+    "whether the same faulty bearing was reused/re-mounted across 0/2/4 Nm",
+    "which/how many healthy bearings were used for normal/unbalance/misalignment and in housing B",
+    "whether acoustic runs used the same specimens",
+    "whether varying-speed specimens moved from housing A (constant) to B (varying)",
+    "whether the 7 x 300 s files are one continuous 2,100 s run",
+    "defect geometry for varying-speed faults",
+    "any repeat runs"
+   ],
+   "inferred_from_file_metadata": "each varying-load bearing-fault severity was recorded at 0->2->4 Nm consecutively within ~7-18 min (2021-06-28 inner, 2021-06-30 outer); normal/unbalance/misalignment all on 2021-06-25; acoustic on 2021-07-05. Consistent with one specimen per (race, severity) reused across loads and one healthy-bearing setup (inference, not documented)"
+  },
+  "file_naming": {
+   "varying_load_pattern": "aaaaNm_bbbb_cccc.mat / .tdms",
+   "fields": {
+    "aaaa": "load in Nm: 0, 2, 4",
+    "bbbb": "condition: Normal, BPFI (inner race), BPFO (outer race), Misalign, Unbalance",
+    "cccc": "severity: BPFI/BPFO 03,10,30 = 0.3/1.0/3.0 mm; Misalign 01,03,05 = 0.1/0.3/0.5 mm; Unbalance 0583mg,1169mg,1751mg,2239mg,3318mg; absent for Normal"
+   },
+   "mendeley_quote": "aaaaNm_bbbb_cccc.mat : This file includes vibration data of the condition of \"bbbb\" with \"cccc\" of severity and \"aaaa\" load condition.",
+   "columns_units": {
+    "vibration_mat": "'Time Stamp','x_direction_housing_A','y_direction_housing_A','x_direction_housing_B','y_direction_housing_B'; g (1 g = 9.80665 m/s2)",
+    "acoustic_mat": "'Time Stamp','values'; Pa",
+    "tdms": "'Time Stamp','Temperature_housing_A','Temperature_housing_B','U-phase','V-phase','W-phase'; degC and A"
+   },
+   "loc": "M-VL description; P pp.4-8",
+   "varying_speed_pattern": {
+    "vibration": "vibration_<state>_<k>.csv, k=0..6 (300 s each) and vibration_<state>_constant.csv (600 s, 3010 rpm)",
+    "current": "current_<state>_<k>.csv",
+    "rpm": "rpm_<state>_<k>.csv",
+    "states": [
+     "normal",
+     "inner",
+     "outer",
+     "ball"
+    ],
+    "columns": "vibration: 'Time Stamp' + 4 axes (g); current: 'five columns' but lists 'Time Stamp','R_phase','S_phase','T_phase' (A); rpm: 'Time Stamp','speed' (RPM)",
+    "loc": "M-S1..3 description; P pp.9-10"
+   }
+  }
+ },
+ "inconsistencies": [
+  "NI module mapping: Spec. Table (P p.2; D-VL p.2) says temperature by NI 9775 and current by NI 9211; §2 (P p.4) says NI9211 temperature, NI9775 current; TDMS files record NI 9210 (miniTC) for temperature and NI 9775 for current",
+  "Accelerometer model PCB352C34 (P p.2, p.4, p.9) vs PCB35234 (P p.14)",
+  "Durations: documented normal 120 s / faulty 60 s (P p.4; Table 2), files show misalignment and unbalance 120 s and 0Nm_Normal 300 s",
+  "Temperature documented at 25.6 kHz (P p.4) but modules are 14 S/s thermocouple modules; files show ~4.8 value changes/s (sample-and-hold)",
+  "Acoustic fs \"25.6 kHz and 50 kHz\" (D-VL p.2) vs 51.2 kHz (P p.4; D-VL p.3; files)",
+  "\"main motor ... 3010 RPM\" (P p.4) vs motor rated 1770 rpm with x2.07 gearbox (P p.14); rpm files \"rotating speed of main motor\" (P pp.9-10)",
+  "\"(680 RPM and 2460 RPM)\" (P p.8, p.9) vs \"680 RPM to 2460 RPM\" (P p.1, p.3)",
+  "Current CSV: \"five columns\" but four names (P p.9; M-S1..3)",
+  "Mendeley varying-speed description omits the ball fault (M-S1..3) that the paper includes (P p.3, p.9)",
+  "Item (47) \"vibration_inner/outer/ball_constant.csv ... Bearing with ball fault is installed in bearing housing A\" (P p.9)",
+  "Phase labels U/V/W (varying load, P p.6) vs R/S/T (varying speed, P p.9; Fig. 5); files carry Mod2/ai0, ai2, ai3",
+  "Mendeley varying-load \"method\" field cites title \"...Varying Load Conditions...\" while \"description\" cites the published \"...Varying Operating Conditions...\"",
+  "Vibration file names 2Nm_Unbalalnce_*.mat (5 files) vs documented 2Nm_Unbalance_*.mat",
+  "DataCite creators: only Wonho Jung; Mendeley record and paper: five authors"
+ ],
+ "file_level_verification_varying_load": {
+  "method": "read-only inspection of local zips (SHA-256 = Mendeley published) with Python 3.13 -I: zipfile central directory, scipy.io.loadmat of MAT structs, custom TDMS metadata parser, raw read of first 10 s of 3 TDMS files",
+  "local_zip_sha256_match": true,
+  "zip_contents": {
+   "acoustic.zip": 5,
+   "current,temp.zip": 45,
+   "vibration.zip": 45
+  },
+  "mat_structure": "single struct \"Signal\" (Simcenter Test.Lab export): x_values{start_value,increment,number_of_values}, y_values.values (N x 4 float64 in g for vibration, channels 3:Point1..6:Point4; N x 1 in Pa for acoustic), function_record.TL_export_properties_annotation{run_name, absolute_time (UTC, inferred), channel_group}",
+  "tdms_structure": "NI FlexLogger 2021 R1.1, chassis cDAQ9185-1F486B5; group 'Log'; Mod1/ai0, ai1 = NI 9210 (miniTC) K-type thermocouple degC; Mod2/ai0, ai2, ai3 = NI 9775 current (voltage scaled 1 V/A, unit A, range +-10); wf_start_time (UTC), wf_increment 3.905e-05 s, wf_start_offset 0",
+  "time_stamp_column_present": false,
+  "sampling": {
+   "vibration_Hz": 25600.0,
+   "acoustic_Hz": 51200.0,
+   "tdms_current_temperature_Hz_approx": 25608.19,
+   "tdms_wf_increment_s": 3.905e-05
+  },
+  "durations_s": {
+   "BPFI_BPFO": 60,
+   "Misalign_Unbalance": 120,
+   "Normal_2Nm_4Nm": 120,
+   "Normal_0Nm": 300,
+   "Acoustic": 60
+  },
+  "temperature_update_rate_per_s_observed": 4.8,
+  "current_fundamental_Hz_observed": 48.5,
+  "clock_offsets_vib_minus_tdms_s": {
+   "2021-06-28": 197.9,
+   "2021-06-30": 206.582,
+   "2021-06-25": 203.03
+  },
+  "concurrency_summary": {
+   "pairs_concurrent_after_offset_removal": 42,
+   "within_0.25s": 34,
+   "within_1s": 40,
+   "max_abs_residual_s": 2.759,
+   "not_concurrent": [
+    "0Nm_BPFO_03",
+    "2Nm_BPFO_03",
+    "4Nm_BPFO_03"
+   ],
+   "not_concurrent_note": "vibration recorded ~32 min before current (after clock-offset correction)",
+   "interpretation": "inference: constant per-day offset despite irregular run spacing (174-507 s) indicates two unsynchronised host clocks with near-simultaneous starts; no sample-level synchrony"
+  },
+  "probable_label_swap": {
+   "files": [
+    "0Nm_BPFI_03.tdms",
+    "0Nm_BPFI_10.tdms"
+   ],
+   "evidence": "0Nm_BPFI_03.tdms internal name 'LogFile_0Nm_Inner_1mm', recorded in the 1 mm block and concurrent with 0Nm_BPFI_10.mat (run '210628_0Nm_Inner_1mm'); 0Nm_BPFI_10.tdms internal name 'LogFile_0Nm_Inner_03mm', recorded in the 0.3 mm block and concurrent with 0Nm_BPFI_03.mat",
+   "status": "inference from metadata; confirm spectrally"
+  },
+  "single_phase_current_files": [
+   "0Nm_BPFO_03.tdms",
+   "0Nm_BPFO_10.tdms",
+   "0Nm_BPFO_30.tdms",
+   "2Nm_BPFO_03.tdms",
+   "2Nm_BPFO_10.tdms",
+   "2Nm_BPFO_30.tdms",
+   "4Nm_BPFO_03.tdms",
+   "4Nm_BPFO_10.tdms",
+   "4Nm_BPFO_30.tdms"
+  ],
+  "recording_dates_utc": {
+   "normal_unbalance_misalignment": "2021-06-25",
+   "inner_race": "2021-06-28",
+   "outer_race": "2021-06-30",
+   "acoustic": "2021-07-05"
+  },
+  "per_condition": [
+   {
+    "condition_key": "0Nm_BPFI_03",
+    "load_Nm": 0,
+    "fault": "BPFI",
+    "severity_code": "03",
+    "vibration_file": "0Nm_BPFI_03.mat",
+    "current_temp_file": "0Nm_BPFI_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Inner_0.3mm",
+    "vib_abs_start_utc": "2021-06-28T11:32:36.799+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Inner_1mm",
+    "tdms_run_number": 43,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T11:02:43.489+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 1793.31,
+    "day_median_offset_s": 197.9,
+    "residual_s": 1595.41,
+    "flags": [
+     "vibration and current NOT recorded concurrently (start times differ by ~1595 s after removing day-median clock offset)",
+     "TDMS internal name 'LogFile_0Nm_Inner_1mm' disagrees with file-name severity 03",
+     "time-concurrent current/temperature recording is 0Nm_BPFI_10.tdms (residual -0.103 s), i.e. the two TDMS file names appear swapped"
+    ],
+    "concurrent_tdms_by_time": "0Nm_BPFI_10.tdms",
+    "concurrent_tdms_residual_s": -0.103
+   },
+   {
+    "condition_key": "0Nm_BPFI_10",
+    "load_Nm": 0,
+    "fault": "BPFI",
+    "severity_code": "10",
+    "vibration_file": "0Nm_BPFI_10.mat",
+    "current_temp_file": "0Nm_BPFI_10.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210628_0Nm_Inner_1mm",
+    "vib_abs_start_utc": "2021-06-28T11:06:00.744+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Inner_03mm",
+    "tdms_run_number": 48,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T11:29:19.002+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": -1398.257,
+    "day_median_offset_s": 197.9,
+    "residual_s": -1596.157,
+    "flags": [
+     "vibration and current NOT recorded concurrently (start times differ by ~-1596 s after removing day-median clock offset)",
+     "TDMS internal name 'LogFile_0Nm_Inner_03mm' disagrees with file-name severity 10",
+     "time-concurrent current/temperature recording is 0Nm_BPFI_03.tdms (residual -0.645 s), i.e. the two TDMS file names appear swapped"
+    ],
+    "concurrent_tdms_by_time": "0Nm_BPFI_03.tdms",
+    "concurrent_tdms_residual_s": -0.645
+   },
+   {
+    "condition_key": "0Nm_BPFI_30",
+    "load_Nm": 0,
+    "fault": "BPFI",
+    "severity_code": "30",
+    "vibration_file": "0Nm_BPFI_30.mat",
+    "current_temp_file": "0Nm_BPFI_30.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210628_0Nm_Inner_3mm",
+    "vib_abs_start_utc": "2021-06-28T10:43:32.526+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Inner_3mm",
+    "tdms_run_number": 38,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T10:40:15.294+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 197.232,
+    "day_median_offset_s": 197.9,
+    "residual_s": -0.668,
+    "flags": [],
+    "concurrent_tdms_by_time": "0Nm_BPFI_30.tdms",
+    "concurrent_tdms_residual_s": -0.668
+   },
+   {
+    "condition_key": "0Nm_BPFO_03",
+    "load_Nm": 0,
+    "fault": "BPFO",
+    "severity_code": "03",
+    "vibration_file": "0Nm_BPFO_03.mat",
+    "current_temp_file": "0Nm_BPFO_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_Outer0.3mm",
+    "vib_abs_start_utc": "2021-06-30T07:19:50.142+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Outer_03mm",
+    "tdms_run_number": 42,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T07:48:19.714+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": -1709.572,
+    "day_median_offset_s": 206.582,
+    "residual_s": -1916.154,
+    "flags": [
+     "vibration and current NOT recorded concurrently (start times differ by ~-1916 s after removing day-median clock offset)",
+     "only 1 of 3 current channels contain data",
+     "no published TDMS file is time-concurrent with this vibration recording"
+    ],
+    "concurrent_tdms_by_time": null,
+    "concurrent_tdms_residual_s": null
+   },
+   {
+    "condition_key": "0Nm_BPFO_10",
+    "load_Nm": 0,
+    "fault": "BPFO",
+    "severity_code": "10",
+    "vibration_file": "0Nm_BPFO_10.mat",
+    "current_temp_file": "0Nm_BPFO_10.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_0Nm_Outer_1mm",
+    "vib_abs_start_utc": "2021-06-30T08:30:05.198+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Outer_1mm",
+    "tdms_run_number": 47,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T08:26:38.476+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 206.722,
+    "day_median_offset_s": 206.582,
+    "residual_s": 0.14,
+    "flags": [
+     "only 1 of 3 current channels contain data"
+    ],
+    "concurrent_tdms_by_time": "0Nm_BPFO_10.tdms",
+    "concurrent_tdms_residual_s": 0.14
+   },
+   {
+    "condition_key": "0Nm_BPFO_30",
+    "load_Nm": 0,
+    "fault": "BPFO",
+    "severity_code": "30",
+    "vibration_file": "0Nm_BPFO_30.mat",
+    "current_temp_file": "0Nm_BPFO_30.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_0Nm_Outer_3mm",
+    "vib_abs_start_utc": "2021-06-30T09:06:24.811+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Outer_3mm",
+    "tdms_run_number": 52,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T09:02:58.230+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 206.582,
+    "day_median_offset_s": 206.582,
+    "residual_s": 0.0,
+    "flags": [
+     "only 1 of 3 current channels contain data"
+    ],
+    "concurrent_tdms_by_time": "0Nm_BPFO_30.tdms",
+    "concurrent_tdms_residual_s": -0.001
+   },
+   {
+    "condition_key": "0Nm_Misalign_01",
+    "load_Nm": 0,
+    "fault": "Misalign",
+    "severity_code": "01",
+    "vibration_file": "0Nm_Misalign_01.mat",
+    "current_temp_file": "0Nm_Misalign_01.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Misalign_0.1mm",
+    "vib_abs_start_utc": "2021-06-25T09:28:28.852+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Misalignment_0.1mm",
+    "tdms_run_number": 31,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T09:25:05.580+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.272,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.242,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Misalign_01.tdms",
+    "concurrent_tdms_residual_s": 0.242
+   },
+   {
+    "condition_key": "0Nm_Misalign_03",
+    "load_Nm": 0,
+    "fault": "Misalign",
+    "severity_code": "03",
+    "vibration_file": "0Nm_Misalign_03.mat",
+    "current_temp_file": "0Nm_Misalign_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Misalign_0.3mm",
+    "vib_abs_start_utc": "2021-06-25T09:32:19.186+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Misalignment_0.3mm",
+    "tdms_run_number": 32,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T09:28:56.096+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.09,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.06,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Misalign_03.tdms",
+    "concurrent_tdms_residual_s": 0.06
+   },
+   {
+    "condition_key": "0Nm_Misalign_05",
+    "load_Nm": 0,
+    "fault": "Misalign",
+    "severity_code": "05",
+    "vibration_file": "0Nm_Misalign_05.mat",
+    "current_temp_file": "0Nm_Misalign_05.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Misalign_0.5mm",
+    "vib_abs_start_utc": "2021-06-25T09:35:17.739+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Misalignment_0.5mm",
+    "tdms_run_number": 33,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T09:31:54.709+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.03,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.0,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Misalign_05.tdms",
+    "concurrent_tdms_residual_s": 0.0
+   },
+   {
+    "condition_key": "0Nm_Normal",
+    "load_Nm": 0,
+    "fault": "Normal",
+    "severity_code": null,
+    "vibration_file": "0Nm_Normal.mat",
+    "current_temp_file": "0Nm_Normal.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 7680000,
+    "vib_duration_s": 300.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Normal",
+    "vib_abs_start_utc": "2021-06-25T07:03:14.836+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Normal",
+    "tdms_run_number": 1,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 7682458,
+    "tdms_duration_s": 300.0,
+    "tdms_start_utc": "2021-06-25T06:59:53.566+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 201.27,
+    "day_median_offset_s": 203.03,
+    "residual_s": -1.76,
+    "flags": [
+     "duration 300 s differs from documented 120 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Normal.tdms",
+    "concurrent_tdms_residual_s": -1.76
+   },
+   {
+    "condition_key": "0Nm_Unbalance_0583mg",
+    "load_Nm": 0,
+    "fault": "Unbalance",
+    "severity_code": "0583mg",
+    "vibration_file": "0Nm_Unbalance_0583mg.mat",
+    "current_temp_file": "0Nm_Unbalance_0583mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Unbal_584mg",
+    "vib_abs_start_utc": "2021-06-25T07:51:42.592+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Unbalance_0.583",
+    "tdms_run_number": 2,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T07:48:19.471+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.121,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.091,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Unbalance_0583mg.tdms",
+    "concurrent_tdms_residual_s": 0.091
+   },
+   {
+    "condition_key": "0Nm_Unbalance_1169mg",
+    "load_Nm": 0,
+    "fault": "Unbalance",
+    "severity_code": "1169mg",
+    "vibration_file": "0Nm_Unbalance_1169mg.mat",
+    "current_temp_file": "0Nm_Unbalance_1169mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Unbal_1169mg",
+    "vib_abs_start_utc": "2021-06-25T07:55:21.971+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Unbalance_0.1169",
+    "tdms_run_number": 3,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T07:51:58.986+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.985,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.045,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Unbalance_1169mg.tdms",
+    "concurrent_tdms_residual_s": -0.045
+   },
+   {
+    "condition_key": "0Nm_Unbalance_1751mg",
+    "load_Nm": 0,
+    "fault": "Unbalance",
+    "severity_code": "1751mg",
+    "vibration_file": "0Nm_Unbalance_1751mg.mat",
+    "current_temp_file": "0Nm_Unbalance_1751mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Unbal_1751mg 1",
+    "vib_abs_start_utc": "2021-06-25T07:59:00.195+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Unbalance_0.1751",
+    "tdms_run_number": 4,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T07:55:37.102+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.093,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.063,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Unbalance_1751mg.tdms",
+    "concurrent_tdms_residual_s": 0.063
+   },
+   {
+    "condition_key": "0Nm_Unbalance_2239mg",
+    "load_Nm": 0,
+    "fault": "Unbalance",
+    "severity_code": "2239mg",
+    "vibration_file": "0Nm_Unbalance_2239mg.mat",
+    "current_temp_file": "0Nm_Unbalance_2239mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Unbal_2239mg",
+    "vib_abs_start_utc": "2021-06-25T08:02:08.618+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Unbalance_0.2239",
+    "tdms_run_number": 5,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T07:58:45.615+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.003,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.027,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Unbalance_2239mg.tdms",
+    "concurrent_tdms_residual_s": -0.027
+   },
+   {
+    "condition_key": "0Nm_Unbalance_3318mg",
+    "load_Nm": 0,
+    "fault": "Unbalance",
+    "severity_code": "3318mg",
+    "vibration_file": "0Nm_Unbalance_3318mg.mat",
+    "current_temp_file": "0Nm_Unbalance_3318mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_0Nm_Unbal_3318mg",
+    "vib_abs_start_utc": "2021-06-25T08:05:05.441+00:00",
+    "tdms_internal_name": "LogFile_0Nm_Unbalance_0.3318",
+    "tdms_run_number": 6,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:01:42.527+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.913,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.117,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "0Nm_Unbalance_3318mg.tdms",
+    "concurrent_tdms_residual_s": -0.116
+   },
+   {
+    "condition_key": "2Nm_BPFI_03",
+    "load_Nm": 2,
+    "fault": "BPFI",
+    "severity_code": "03",
+    "vibration_file": "2Nm_BPFI_03.mat",
+    "current_temp_file": "2Nm_BPFI_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Inner_0.3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-28T11:39:49.898+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Inner_03mm",
+    "tdms_run_number": 50,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T11:36:31.232+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 198.666,
+    "day_median_offset_s": 197.9,
+    "residual_s": 0.766,
+    "flags": [],
+    "concurrent_tdms_by_time": "2Nm_BPFI_03.tdms",
+    "concurrent_tdms_residual_s": 0.766
+   },
+   {
+    "condition_key": "2Nm_BPFI_10",
+    "load_Nm": 2,
+    "fault": "BPFI",
+    "severity_code": "10",
+    "vibration_file": "2Nm_BPFI_10.mat",
+    "current_temp_file": "2Nm_BPFI_10.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Inner_1mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-28T11:16:40.261+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Inner_1mm",
+    "tdms_run_number": 45,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T11:13:22.334+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 197.927,
+    "day_median_offset_s": 197.9,
+    "residual_s": 0.027,
+    "flags": [],
+    "concurrent_tdms_by_time": "2Nm_BPFI_10.tdms",
+    "concurrent_tdms_residual_s": 0.027
+   },
+   {
+    "condition_key": "2Nm_BPFI_30",
+    "load_Nm": 2,
+    "fault": "BPFI",
+    "severity_code": "30",
+    "vibration_file": "2Nm_BPFI_30.mat",
+    "current_temp_file": "2Nm_BPFI_30.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210628_2Nm_Inner_3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-28T10:46:48.804+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Inner_3mm",
+    "tdms_run_number": 40,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T10:43:31.508+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 197.296,
+    "day_median_offset_s": 197.9,
+    "residual_s": -0.604,
+    "flags": [],
+    "concurrent_tdms_by_time": "2Nm_BPFI_30.tdms",
+    "concurrent_tdms_residual_s": -0.604
+   },
+   {
+    "condition_key": "2Nm_BPFO_03",
+    "load_Nm": 2,
+    "fault": "BPFO",
+    "severity_code": "03",
+    "vibration_file": "2Nm_BPFO_03.mat",
+    "current_temp_file": "2Nm_BPFO_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_2Nm_Outer_0.3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-30T07:23:21.442+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Outer_03mm",
+    "tdms_run_number": 44,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T07:51:49.529+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": -1708.087,
+    "day_median_offset_s": 206.582,
+    "residual_s": -1914.669,
+    "flags": [
+     "vibration and current NOT recorded concurrently (start times differ by ~-1915 s after removing day-median clock offset)",
+     "only 1 of 3 current channels contain data",
+     "no published TDMS file is time-concurrent with this vibration recording"
+    ],
+    "concurrent_tdms_by_time": null,
+    "concurrent_tdms_residual_s": null
+   },
+   {
+    "condition_key": "2Nm_BPFO_10",
+    "load_Nm": 2,
+    "fault": "BPFO",
+    "severity_code": "10",
+    "vibration_file": "2Nm_BPFO_10.mat",
+    "current_temp_file": "2Nm_BPFO_10.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_2Nm_Outer_1mm _RPMFix",
+    "vib_abs_start_utc": "2021-06-30T08:43:43.769+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Outer_1mm",
+    "tdms_run_number": 49,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T08:40:17.034+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 206.736,
+    "day_median_offset_s": 206.582,
+    "residual_s": 0.154,
+    "flags": [
+     "only 1 of 3 current channels contain data"
+    ],
+    "concurrent_tdms_by_time": "2Nm_BPFO_10.tdms",
+    "concurrent_tdms_residual_s": 0.153
+   },
+   {
+    "condition_key": "2Nm_BPFO_30",
+    "load_Nm": 2,
+    "fault": "BPFO",
+    "severity_code": "30",
+    "vibration_file": "2Nm_BPFO_30.mat",
+    "current_temp_file": "2Nm_BPFO_30.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_2Nm_Outer_3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-30T09:09:16.319+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Outer_3mm",
+    "tdms_run_number": 54,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T09:05:49.842+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 206.477,
+    "day_median_offset_s": 206.582,
+    "residual_s": -0.105,
+    "flags": [
+     "only 1 of 3 current channels contain data"
+    ],
+    "concurrent_tdms_by_time": "2Nm_BPFO_30.tdms",
+    "concurrent_tdms_residual_s": -0.105
+   },
+   {
+    "condition_key": "2Nm_Misalign_01",
+    "load_Nm": 2,
+    "fault": "Misalign",
+    "severity_code": "01",
+    "vibration_file": "2Nm_Misalign_01.mat",
+    "current_temp_file": "2Nm_Misalign_01.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Misalign_0.1mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-25T09:25:01.277+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Misalignment_0.1mm",
+    "tdms_run_number": 30,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T09:21:38.265+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.012,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.018,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Misalign_01.tdms",
+    "concurrent_tdms_residual_s": -0.018
+   },
+   {
+    "condition_key": "2Nm_Misalign_03",
+    "load_Nm": 2,
+    "fault": "Misalign",
+    "severity_code": "03",
+    "vibration_file": "2Nm_Misalign_03.mat",
+    "current_temp_file": "2Nm_Misalign_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Misalign_0.3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-25T09:16:34.545+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Misalignment_0.3mm",
+    "tdms_run_number": 27,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T09:13:11.430+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.115,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.085,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Misalign_03.tdms",
+    "concurrent_tdms_residual_s": 0.085
+   },
+   {
+    "condition_key": "2Nm_Misalign_05",
+    "load_Nm": 2,
+    "fault": "Misalign",
+    "severity_code": "05",
+    "vibration_file": "2Nm_Misalign_05.mat",
+    "current_temp_file": "2Nm_Misalign_05.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Misalign_0.5mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-25T09:13:21.143+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Misalignment_0.5mm",
+    "tdms_run_number": 26,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T09:09:58.116+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.027,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.003,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Misalign_05.tdms",
+    "concurrent_tdms_residual_s": -0.003
+   },
+   {
+    "condition_key": "2Nm_Normal",
+    "load_Nm": 2,
+    "fault": "Normal",
+    "severity_code": null,
+    "vibration_file": "2Nm_Normal.mat",
+    "current_temp_file": "2Nm_Normal.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Normal",
+    "vib_abs_start_utc": "2021-06-25T08:23:48.234+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Normal",
+    "tdms_run_number": 12,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:20:25.107+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.128,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.098,
+    "flags": [],
+    "concurrent_tdms_by_time": "2Nm_Normal.tdms",
+    "concurrent_tdms_residual_s": 0.097
+   },
+   {
+    "condition_key": "2Nm_Unbalance_0583mg",
+    "load_Nm": 2,
+    "fault": "Unbalance",
+    "severity_code": "0583mg",
+    "vibration_file": "2Nm_Unbalalnce_0583mg.mat",
+    "current_temp_file": "2Nm_Unbalance_0583mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Unbal_583mg",
+    "vib_abs_start_utc": "2021-06-25T08:20:47.259+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Unbalance_0.583",
+    "tdms_run_number": 11,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:17:24.194+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.066,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.036,
+    "flags": [
+     "vibration filename spelled \"Unbalalnce\" (documented: Unbalance)",
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Unbalance_0583mg.tdms",
+    "concurrent_tdms_residual_s": 0.035
+   },
+   {
+    "condition_key": "2Nm_Unbalance_1169mg",
+    "load_Nm": 2,
+    "fault": "Unbalance",
+    "severity_code": "1169mg",
+    "vibration_file": "2Nm_Unbalalnce_1169mg.mat",
+    "current_temp_file": "2Nm_Unbalance_1169mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Unbal_1169mg",
+    "vib_abs_start_utc": "2021-06-25T08:17:47.357+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Unbalance_0.1169",
+    "tdms_run_number": 10,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:14:24.381+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.976,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.054,
+    "flags": [
+     "vibration filename spelled \"Unbalalnce\" (documented: Unbalance)",
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Unbalance_1169mg.tdms",
+    "concurrent_tdms_residual_s": -0.054
+   },
+   {
+    "condition_key": "2Nm_Unbalance_1751mg",
+    "load_Nm": 2,
+    "fault": "Unbalance",
+    "severity_code": "1751mg",
+    "vibration_file": "2Nm_Unbalalnce_1751mg.mat",
+    "current_temp_file": "2Nm_Unbalance_1751mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Unbal_1751mg",
+    "vib_abs_start_utc": "2021-06-25T08:14:44.074+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Unbalance_0.1751",
+    "tdms_run_number": 9,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:11:21.168+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.906,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.124,
+    "flags": [
+     "vibration filename spelled \"Unbalalnce\" (documented: Unbalance)",
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Unbalance_1751mg.tdms",
+    "concurrent_tdms_residual_s": -0.124
+   },
+   {
+    "condition_key": "2Nm_Unbalance_2239mg",
+    "load_Nm": 2,
+    "fault": "Unbalance",
+    "severity_code": "2239mg",
+    "vibration_file": "2Nm_Unbalalnce_2239mg.mat",
+    "current_temp_file": "2Nm_Unbalance_2239mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Unbal_2239mg",
+    "vib_abs_start_utc": "2021-06-25T08:11:27.948+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Unbalance_0.2239",
+    "tdms_run_number": 8,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:08:04.954+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.993,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.037,
+    "flags": [
+     "vibration filename spelled \"Unbalalnce\" (documented: Unbalance)",
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Unbalance_2239mg.tdms",
+    "concurrent_tdms_residual_s": -0.036
+   },
+   {
+    "condition_key": "2Nm_Unbalance_3318mg",
+    "load_Nm": 2,
+    "fault": "Unbalance",
+    "severity_code": "3318mg",
+    "vibration_file": "2Nm_Unbalalnce_3318mg.mat",
+    "current_temp_file": "2Nm_Unbalance_3318mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_2Nm_Unbal_3318mg",
+    "vib_abs_start_utc": "2021-06-25T08:08:31.372+00:00",
+    "tdms_internal_name": "LogFile_2Nm_Unbalance_0.3318",
+    "tdms_run_number": 7,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:05:08.342+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.031,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.001,
+    "flags": [
+     "vibration filename spelled \"Unbalalnce\" (documented: Unbalance)",
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "2Nm_Unbalance_3318mg.tdms",
+    "concurrent_tdms_residual_s": 0.0
+   },
+   {
+    "condition_key": "4Nm_BPFI_03",
+    "load_Nm": 4,
+    "fault": "BPFI",
+    "severity_code": "03",
+    "vibration_file": "4Nm_BPFI_03.mat",
+    "current_temp_file": "4Nm_BPFI_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Inner_0.3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-28T11:43:03.267+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Inner_03mm",
+    "tdms_run_number": 52,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T11:39:45.346+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 197.921,
+    "day_median_offset_s": 197.9,
+    "residual_s": 0.021,
+    "flags": [],
+    "concurrent_tdms_by_time": "4Nm_BPFI_03.tdms",
+    "concurrent_tdms_residual_s": 0.021
+   },
+   {
+    "condition_key": "4Nm_BPFI_10",
+    "load_Nm": 4,
+    "fault": "BPFI",
+    "severity_code": "10",
+    "vibration_file": "4Nm_BPFI_10.mat",
+    "current_temp_file": "4Nm_BPFI_10.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Inner_1mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-28T11:19:50.948+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Inner_1mm",
+    "tdms_run_number": 47,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T11:16:33.048+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 197.9,
+    "day_median_offset_s": 197.9,
+    "residual_s": 0.0,
+    "flags": [],
+    "concurrent_tdms_by_time": "4Nm_BPFI_10.tdms",
+    "concurrent_tdms_residual_s": 0.0
+   },
+   {
+    "condition_key": "4Nm_BPFI_30",
+    "load_Nm": 4,
+    "fault": "BPFI",
+    "severity_code": "30",
+    "vibration_file": "4Nm_BPFI_30.mat",
+    "current_temp_file": "4Nm_BPFI_30.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210628_4Nm_Inner_3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-28T10:50:43.319+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Inner_3mm",
+    "tdms_run_number": 42,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-28T10:47:26.024+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 197.294,
+    "day_median_offset_s": 197.9,
+    "residual_s": -0.606,
+    "flags": [],
+    "concurrent_tdms_by_time": "4Nm_BPFI_30.tdms",
+    "concurrent_tdms_residual_s": -0.605
+   },
+   {
+    "condition_key": "4Nm_BPFO_03",
+    "load_Nm": 4,
+    "fault": "BPFO",
+    "severity_code": "03",
+    "vibration_file": "4Nm_BPFO_03.mat",
+    "current_temp_file": "4Nm_BPFO_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_4Nm_Outer_0.3mm_RPMFIx",
+    "vib_abs_start_utc": "2021-06-30T07:26:36.146+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Outer_03mm",
+    "tdms_run_number": 46,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T07:55:00.342+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": -1704.196,
+    "day_median_offset_s": 206.582,
+    "residual_s": -1910.778,
+    "flags": [
+     "vibration and current NOT recorded concurrently (start times differ by ~-1911 s after removing day-median clock offset)",
+     "only 1 of 3 current channels contain data",
+     "no published TDMS file is time-concurrent with this vibration recording"
+    ],
+    "concurrent_tdms_by_time": null,
+    "concurrent_tdms_residual_s": null
+   },
+   {
+    "condition_key": "4Nm_BPFO_10",
+    "load_Nm": 4,
+    "fault": "BPFO",
+    "severity_code": "10",
+    "vibration_file": "4Nm_BPFO_10.mat",
+    "current_temp_file": "4Nm_BPFO_10.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_4Nm_Outer_1mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-30T08:47:07.658+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Outer_1mm",
+    "tdms_run_number": 51,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T08:43:40.848+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 206.81,
+    "day_median_offset_s": 206.582,
+    "residual_s": 0.228,
+    "flags": [
+     "only 1 of 3 current channels contain data"
+    ],
+    "concurrent_tdms_by_time": "4Nm_BPFO_10.tdms",
+    "concurrent_tdms_residual_s": 0.228
+   },
+   {
+    "condition_key": "4Nm_BPFO_30",
+    "load_Nm": 4,
+    "fault": "BPFO",
+    "severity_code": "30",
+    "vibration_file": "4Nm_BPFO_30.mat",
+    "current_temp_file": "4Nm_BPFO_30.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 1536000,
+    "vib_duration_s": 60.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210630_4Nm_Outer_3mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-30T09:12:25.129+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Outer_3mm",
+    "tdms_run_number": 56,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 1536492,
+    "tdms_duration_s": 60.0,
+    "tdms_start_utc": "2021-06-30T09:08:58.455+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 1,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 206.674,
+    "day_median_offset_s": 206.582,
+    "residual_s": 0.092,
+    "flags": [
+     "only 1 of 3 current channels contain data"
+    ],
+    "concurrent_tdms_by_time": "4Nm_BPFO_30.tdms",
+    "concurrent_tdms_residual_s": 0.092
+   },
+   {
+    "condition_key": "4Nm_Misalign_01",
+    "load_Nm": 4,
+    "fault": "Misalign",
+    "severity_code": "01",
+    "vibration_file": "4Nm_Misalign_01.mat",
+    "current_temp_file": "4Nm_Misalign_01.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Misalign_0.1mm 1",
+    "vib_abs_start_utc": "2021-06-25T08:55:01.759+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Misalignment_0.1mm",
+    "tdms_run_number": 20,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:51:38.139+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.621,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.591,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Misalign_01.tdms",
+    "concurrent_tdms_residual_s": 0.59
+   },
+   {
+    "condition_key": "4Nm_Misalign_03",
+    "load_Nm": 4,
+    "fault": "Misalign",
+    "severity_code": "03",
+    "vibration_file": "4Nm_Misalign_03.mat",
+    "current_temp_file": "4Nm_Misalign_03.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Misalign_0.3mm_RPMfits",
+    "vib_abs_start_utc": "2021-06-25T08:58:37.415+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Misalignment_0.3mm",
+    "tdms_run_number": 21,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:55:14.354+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.061,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.031,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Misalign_03.tdms",
+    "concurrent_tdms_residual_s": 0.031
+   },
+   {
+    "condition_key": "4Nm_Misalign_05",
+    "load_Nm": 4,
+    "fault": "Misalign",
+    "severity_code": "05",
+    "vibration_file": "4Nm_Misalign_05.mat",
+    "current_temp_file": "4Nm_Misalign_05.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Misalign_0.5mm_RPMFix",
+    "vib_abs_start_utc": "2021-06-25T09:06:54.287+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Misalignment_0.5mm",
+    "tdms_run_number": 24,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T09:03:31.489+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.798,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.232,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Misalign_05.tdms",
+    "concurrent_tdms_residual_s": -0.232
+   },
+   {
+    "condition_key": "4Nm_Normal",
+    "load_Nm": 4,
+    "fault": "Normal",
+    "severity_code": null,
+    "vibration_file": "4Nm_Normal.mat",
+    "current_temp_file": "4Nm_Normal.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Normal",
+    "vib_abs_start_utc": "2021-06-25T08:31:14.911+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Normal",
+    "tdms_run_number": 13,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:27:51.838+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.073,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.043,
+    "flags": [],
+    "concurrent_tdms_by_time": "4Nm_Normal.tdms",
+    "concurrent_tdms_residual_s": 0.043
+   },
+   {
+    "condition_key": "4Nm_Unbalance_0583mg",
+    "load_Nm": 4,
+    "fault": "Unbalance",
+    "severity_code": "0583mg",
+    "vibration_file": "4Nm_Unbalance_0583mg.mat",
+    "current_temp_file": "4Nm_Unbalance_0583mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Unbal_583mg",
+    "vib_abs_start_utc": "2021-06-25T08:34:36.757+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Unbalance_0.583",
+    "tdms_run_number": 14,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:31:13.652+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 203.104,
+    "day_median_offset_s": 203.03,
+    "residual_s": 0.074,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Unbalance_0583mg.tdms",
+    "concurrent_tdms_residual_s": 0.075
+   },
+   {
+    "condition_key": "4Nm_Unbalance_1169mg",
+    "load_Nm": 4,
+    "fault": "Unbalance",
+    "severity_code": "1169mg",
+    "vibration_file": "4Nm_Unbalance_1169mg.mat",
+    "current_temp_file": "4Nm_Unbalance_1169mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Unbal_1169mg",
+    "vib_abs_start_utc": "2021-06-25T08:37:33.353+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Unbalance_0.1169",
+    "tdms_run_number": 15,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:34:07.564+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 205.789,
+    "day_median_offset_s": 203.03,
+    "residual_s": 2.759,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Unbalance_1169mg.tdms",
+    "concurrent_tdms_residual_s": 2.759
+   },
+   {
+    "condition_key": "4Nm_Unbalance_1751mg",
+    "load_Nm": 4,
+    "fault": "Unbalance",
+    "severity_code": "1751mg",
+    "vibration_file": "4Nm_Unbalance_1751mg.mat",
+    "current_temp_file": "4Nm_Unbalance_1751mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Unbal_1751mg",
+    "vib_abs_start_utc": "2021-06-25T08:40:47.298+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Unbalance_1751mg",
+    "tdms_run_number": 16,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:37:24.378+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.92,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.11,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Unbalance_1751mg.tdms",
+    "concurrent_tdms_residual_s": -0.11
+   },
+   {
+    "condition_key": "4Nm_Unbalance_2239mg",
+    "load_Nm": 4,
+    "fault": "Unbalance",
+    "severity_code": "2239mg",
+    "vibration_file": "4Nm_Unbalance_2239mg.mat",
+    "current_temp_file": "4Nm_Unbalance_2239mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Unbal_2239mg",
+    "vib_abs_start_utc": "2021-06-25T08:44:17.892+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Unbalance_2239mg",
+    "tdms_run_number": 17,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:40:54.893+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.999,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.031,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Unbalance_2239mg.tdms",
+    "concurrent_tdms_residual_s": -0.031
+   },
+   {
+    "condition_key": "4Nm_Unbalance_3318mg",
+    "load_Nm": 4,
+    "fault": "Unbalance",
+    "severity_code": "3318mg",
+    "vibration_file": "4Nm_Unbalance_3318mg.mat",
+    "current_temp_file": "4Nm_Unbalance_3318mg.tdms",
+    "vib_fs_hz": 25600.0,
+    "vib_n": 3072000,
+    "vib_duration_s": 120.0,
+    "vib_channels": [
+     "3:Point1",
+     "4:Point2",
+     "5:Point3",
+     "6:Point4"
+    ],
+    "vib_run_name": "210625_4Nm_Unbal_3318mg",
+    "vib_abs_start_utc": "2021-06-25T08:47:19.058+00:00",
+    "tdms_internal_name": "LogFile_4Nm_Unbalance_3318mg",
+    "tdms_run_number": 18,
+    "tdms_logger": "FlexLogger 2021 R1.1",
+    "tdms_wf_increment_s": 3.905e-05,
+    "tdms_n": 3072983,
+    "tdms_duration_s": 120.0,
+    "tdms_start_utc": "2021-06-25T08:43:56.206+00:00",
+    "current_channels": [
+     "ai0",
+     "ai2",
+     "ai3"
+    ],
+    "current_channels_with_data": 3,
+    "temperature_module": "NI 9210 (miniTC)",
+    "current_module": "NI 9775",
+    "offset_vib_minus_tdms_s": 202.852,
+    "day_median_offset_s": 203.03,
+    "residual_s": -0.178,
+    "flags": [
+     "duration 120 s differs from documented 60 s"
+    ],
+    "concurrent_tdms_by_time": "4Nm_Unbalance_3318mg.tdms",
+    "concurrent_tdms_residual_s": -0.178
+   }
+  ],
+  "acoustic": [
+   {
+    "file": "0Nm_BPFI_03.mat",
+    "fs_hz": 51200.0,
+    "n": 3072000,
+    "duration_s": 60.0,
+    "unit": "Pa",
+    "run_name": "210705_Inner_0.3mm_5cm",
+    "abs_start_utc": "2021-07-05T16:03:30.869+00:00"
+   },
+   {
+    "file": "0Nm_BPFI_10.mat",
+    "fs_hz": 51200.0,
+    "n": 3072000,
+    "duration_s": 60.0,
+    "unit": "Pa",
+    "run_name": "210705_Inner_1mm_5cm",
+    "abs_start_utc": "2021-07-05T16:26:00.226+00:00"
+   },
+   {
+    "file": "0Nm_BPFO_03.mat",
+    "fs_hz": 51200.0,
+    "n": 3072000,
+    "duration_s": 60.0,
+    "unit": "Pa",
+    "run_name": "210705_Outer_0.3mm_5cm",
+    "abs_start_utc": "2021-07-05T15:15:58.558+00:00"
+   },
+   {
+    "file": "0Nm_BPFO_10.mat",
+    "fs_hz": 51200.0,
+    "n": 3072000,
+    "duration_s": 60.0,
+    "unit": "Pa",
+    "run_name": "210705_Outer_1mm_5cm",
+    "abs_start_utc": "2021-07-05T15:37:01.771+00:00"
+   },
+   {
+    "file": "0Nm_Normal.mat",
+    "fs_hz": 51200.0,
+    "n": 3072000,
+    "duration_s": 60.0,
+    "unit": "Pa",
+    "run_name": "210705_Normal_5cm",
+    "abs_start_utc": "2021-07-05T14:48:36.840+00:00"
+   }
+  ]
+ },
+ "implications_for_project": [
+  "Pair vibration and current only at run level or by relative time after coarse offset correction; no sample synchrony",
+  "Exclude or treat as unpaired the three BPFO 0.3 mm conditions; fix 0 Nm BPFI 0.3/1.0 mm TDMS labels after spectral confirmation",
+  "Resample TDMS current (25,608.19 Hz) to the vibration grid (25,600 Hz) or a common rate",
+  "Use a single current phase (ai0) for all classes or drop BPFO; otherwise channel availability leaks the outer-race label",
+  "KAIST supports at most one specimen per (fault, severity) and apparently one healthy bearing: emphasise leave-one-load-out; grouped cross-fitting is leave-one-severity-specimen-out and cannot group the healthy class by bearing",
+  "Varying-speed part has one specimen per class; only temporal file blocks are available as groups"
+ ],
+ "open_issues": [
+  "Contents of part1/part2/part3.zip not documented",
+  "Varying-speed CSV columns, Time Stamp semantics, actual fs, rpm reference (motor vs shaft) and which DAQ recorded rpm",
+  "Concurrency/offset of vibration vs current in the varying-speed part; contiguity of the 7 x 300 s files",
+  "Specimen counts and reuse across loads/housings (inferred only)",
+  "Confirm 0 Nm BPFI label swap; reason for single-phase BPFO current and non-concurrent BPFO 0.3 mm",
+  "Load definition (brake vs torque meter), unbalance radius, defect manufacturing method (varying load) and defect sizes (varying speed)",
+  "Supply frequency/drive (~48.5 Hz observed in varying-load current)",
+  "PCB 352C34 specification not verified (vendor page HTTP 403)"
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "folds": [
+  {
+   "group": "N09_M07_F10",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ],
+   "held_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ]
+  },
+  {
+   "group": "N15_M01_F10",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ],
+   "held_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ]
+  },
+  {
+   "group": "N15_M07_F04",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ],
+   "held_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ]
+  },
+  {
+   "group": "N15_M07_F10",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ],
+   "held_bearings": [
+    "K001",
+    "KA07",
+    "KI16"
+   ]
+  }
+ ],
+ "group_kind": "condition",
+ "residual_median": 0.0049120723956024796,
+ "table": {
+  "by_class": {
+   "healthy": {
+    "r_mean": 0.0071,
+    "r_median": 0.0053,
+    "w_mean": 1.0,
+    "w_min": 0.3987,
+    "w_max": 1.9407
+   },
+   "inner": {
+    "r_mean": 0.0137,
+    "r_median": 0.0067,
+    "w_mean": 1.0,
+    "w_min": 0.4045,
+    "w_max": 1.9939
+   },
+   "outer": {
+    "r_mean": 0.0055,
+    "r_median": 0.0044,
+    "w_mean": 1.0,
+    "w_min": 0.3772,
+    "w_max": 1.6873
+   }
+  },
+  "by_condition": {
+   "N09_M07_F10": {
+    "r_mean": 0.0135,
+    "r_median": 0.0064,
+    "w_mean": 0.7084,
+    "w_min": 0.4048,
+    "w_max": 1.0715
+   },
+   "N15_M01_F10": {
+    "r_mean": 0.0071,
+    "r_median": 0.0037,
+    "w_mean": 1.0423,
+    "w_min": 0.3945,
+    "w_max": 1.8662
+   },
+   "N15_M07_F04": {
+    "r_mean": 0.0089,
+    "r_median": 0.004,
+    "w_mean": 1.01,
+    "w_min": 0.3916,
+    "w_max": 1.9504
+   },
+   "N15_M07_F10": {
+    "r_mean": 0.0056,
+    "r_median": 0.0027,
+    "w_mean": 1.2393,
+    "w_min": 0.3772,
+    "w_max": 1.9939
+   }
+  }
+ },
+ "teacher_checkpoint": "430c81a202571c98"
+}

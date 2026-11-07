@@ -1,0 +1,122 @@
+{
+ "folds": [
+  {
+   "group": "N09_M07_F10",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ],
+   "held_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ]
+  },
+  {
+   "group": "N15_M01_F10",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ],
+   "held_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ]
+  },
+  {
+   "group": "N15_M07_F04",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ],
+   "held_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ]
+  },
+  {
+   "group": "N15_M07_F10",
+   "fit_windows": 2700,
+   "held_windows": 900,
+   "fit_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ],
+   "held_bearings": [
+    "K005",
+    "KA16",
+    "KI01"
+   ]
+  }
+ ],
+ "group_kind": "condition",
+ "residual_median": 0.02146600788261356,
+ "table": {
+  "by_class": {
+   "healthy": {
+    "r_mean": 0.0276,
+    "r_median": 0.0281,
+    "w_mean": 1.0,
+    "w_min": 0.6902,
+    "w_max": 1.739
+   },
+   "inner": {
+    "r_mean": 0.0165,
+    "r_median": 0.0153,
+    "w_mean": 1.0,
+    "w_min": 0.6436,
+    "w_max": 1.5148
+   },
+   "outer": {
+    "r_mean": 0.0202,
+    "r_median": 0.0191,
+    "w_mean": 1.0,
+    "w_min": 0.6024,
+    "w_max": 1.5688
+   }
+  },
+  "by_condition": {
+   "N09_M07_F10": {
+    "r_mean": 0.0243,
+    "r_median": 0.0255,
+    "w_mean": 0.9125,
+    "w_min": 0.7403,
+    "w_max": 1.0818
+   },
+   "N15_M01_F10": {
+    "r_mean": 0.0205,
+    "r_median": 0.0203,
+    "w_mean": 1.0128,
+    "w_min": 0.8104,
+    "w_max": 1.2187
+   },
+   "N15_M07_F04": {
+    "r_mean": 0.0212,
+    "r_median": 0.0194,
+    "w_mean": 1.0375,
+    "w_min": 0.6024,
+    "w_max": 1.739
+   },
+   "N15_M07_F10": {
+    "r_mean": 0.0197,
+    "r_median": 0.0206,
+    "w_mean": 1.0372,
+    "w_min": 0.7451,
+    "w_max": 1.3551
+   }
+  }
+ },
+ "teacher_checkpoint": "4b54d245098dad31"
+}

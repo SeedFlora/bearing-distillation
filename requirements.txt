@@ -1,0 +1,18 @@
+# Exact versions observed in the project environment on 2026-11-07
+# Python 3.13.5 (win32); torch CUDA build cu128 (install torch from the PyTorch cu128 index)
+torch==2.11.0+cu128
+numpy==2.4.6
+scipy==1.17.1
+pandas==2.3.3
+scikit-learn==1.9.0
+matplotlib==3.11.0
+onnx==1.22.0
+onnxruntime==1.20.1
+PyYAML==6.0.3
+tqdm==4.68.2
+npTDMS==1.13.0
+tabulate==0.10.0
+PyMuPDF==1.27.2.3
+statsmodels==0.14.6
+pytest==8.4.2
+seaborn==0.13.2

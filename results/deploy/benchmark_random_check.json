@@ -1,0 +1,78 @@
+{
+ "hardware": {
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "machine": "AMD64",
+  "logical_cpus": 20,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU"
+ },
+ "software": {
+  "python": "3.13.5",
+  "torch": "2.11.0+cu128",
+  "onnxruntime": "1.20.1",
+  "onnx": "1.22.0"
+ },
+ "checkpoint": "random-init (pipeline check only)",
+ "parameters_deployed": 14083,
+ "file_bytes": {
+  "fp32": 57967,
+  "int8": 37414
+ },
+ "int8_graph_op_counts": {
+  "QuantizeLinear": 12,
+  "DequantizeLinear": 32,
+  "Conv": 9,
+  "ReduceMean": 1,
+  "Gemm": 1
+ },
+ "preprocessing_parity_max_abs": {
+  "max_abs": 0.32657885551452637,
+  "p99_9_abs": 0.04863598942756653,
+  "median_abs": 0.00010219216346740723,
+  "decision_agreement": 1.0,
+  "max_abs_logit_diff": 2.0489096641540527e-07
+ },
+ "decision_timing_note": "one window needs 0.5 s of acquisition; a recording decision needs 4.0 s; latencies below exclude acquisition",
+ "fp32": {
+  "cpu_threads1": {
+   "median_ms": 0.16740000864956528,
+   "p95_ms": 0.23576000457978802,
+   "n": 2000
+  },
+  "max_abs_diff_vs_torch_fp32": 7.450580596923828e-09,
+  "argmax_agreement_vs_torch_fp32": 1.0,
+  "cpu_threads4": {
+   "median_ms": 0.17729999672155827,
+   "p95_ms": 0.26972500199917704,
+   "n": 2000
+  }
+ },
+ "int8": {
+  "cpu_threads1": {
+   "median_ms": 0.07740000728517771,
+   "p95_ms": 0.09060500597115606,
+   "n": 2000
+  },
+  "max_abs_diff_vs_torch_fp32": 0.00012610480189323425,
+  "argmax_agreement_vs_torch_fp32": 1.0,
+  "cpu_threads4": {
+   "median_ms": 0.06459999713115394,
+   "p95_ms": 0.12291500461287795,
+   "n": 2000
+  }
+ },
+ "preprocessing_numpy_cpu": {
+  "median_ms": 0.07375000132014975,
+  "p95_ms": 0.16630499958409925,
+  "n": 2000
+ },
+ "torch_fp32_cpu_threads4": {
+  "median_ms": 0.7611500041093677,
+  "p95_ms": 1.3336299976799637,
+  "n": 2000
+ },
+ "torch_fp32_gpu": {
+  "median_ms": 2.1007999966968782,
+  "p95_ms": 3.8337200006935745,
+  "n": 2000
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "folds": [
+  {
+   "group": "g0",
+   "fit_windows": 11935,
+   "held_windows": 5997,
+   "fit_bearings": [
+    "K001",
+    "K004",
+    "KA01",
+    "KA04",
+    "KA06",
+    "KA07",
+    "KA15",
+    "KI01",
+    "KI07",
+    "KI17"
+   ],
+   "held_bearings": [
+    "K003",
+    "KA05",
+    "KA16",
+    "KI03",
+    "KI21"
+   ]
+  },
+  {
+   "group": "g1",
+   "fit_windows": 11994,
+   "held_windows": 5938,
+   "fit_bearings": [
+    "K001",
+    "K003",
+    "KA05",
+    "KA06",
+    "KA07",
+    "KA15",
+    "KA16",
+    "KI03",
+    "KI07",
+    "KI21"
+   ],
+   "held_bearings": [
+    "K004",
+    "KA01",
+    "KA04",
+    "KI01",
+    "KI17"
+   ]
+  },
+  {
+   "group": "g2",
+   "fit_windows": 11935,
+   "held_windows": 5997,
+   "fit_bearings": [
+    "K003",
+    "K004",
+    "KA01",
+    "KA04",
+    "KA05",
+    "KA16",
+    "KI01",
+    "KI03",
+    "KI17",
+    "KI21"
+   ],
+   "held_bearings": [
+    "K001",
+    "KA06",
+    "KA07",
+    "KA15",
+    "KI07"
+   ]
+  }
+ ],
+ "median_residual": 0.015182318613189576,
+ "teacher_checkpoint": "08397b7bf5ff3f70"
+}

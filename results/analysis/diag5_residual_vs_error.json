@@ -1,0 +1,273 @@
+{
+ "definition": "Amendment A4, diagnostic 5 (descriptive; never used for any choice).\n\nQuestion: is a test window's bridge residual associated with the current-only student's error on that\nwindow? A4 allows the residual to be called a \"proxy for transfer difficulty\" only if this association\nis positive.\n\nFixed before computing (2026-11-07, after the main runs, before this script was first executed):\n- Residual: r = mean_d (l2n(z_T) - l2n(b(x)))^2 on Protocol A test windows, with z_T from the fold's frozen\n  multimodal teacher and b from the auxiliary-control bridge of the same fold (fitted on all training\n  bearings, seed 0, log-spectrum input), i.e. the bridge that never saw the test bearings.\n- Reference student: CE-only (negative transfer is defined against it); secondary: ungated feature KD\n  and the proposed gate. Error = per-window cross-entropy -log p(true), averaged over seeds 0-2;\n  0/1 error is reported as well.\n- Association: Spearman rho pooled over all test windows of the 21 test bearings, decomposed into a\n  between-bearing rho (bearing means, n = 21) and the mean within-bearing rho; 95% percentile intervals\n  from 10,000 bearing bootstrap replicates resampled within class (as for the primary endpoint).",
+ "folds": [
+  {
+   "fold": 0,
+   "teacher_checkpoint": "08397b7bf5ff3f70",
+   "bridge_checkpoint": "A_fold0_bridge_head_s0.pt",
+   "n_windows": 4465
+  },
+  {
+   "fold": 1,
+   "teacher_checkpoint": "b1683d9efd8bc996",
+   "bridge_checkpoint": "A_fold1_bridge_head_s0.pt",
+   "n_windows": 4445
+  },
+  {
+   "fold": 2,
+   "teacher_checkpoint": "05e928ec43118033",
+   "bridge_checkpoint": "A_fold2_bridge_head_s0.pt",
+   "n_windows": 4472
+  }
+ ],
+ "n_bearings": 21,
+ "n_windows": 13382,
+ "median_residual_by_class": {
+  "0": 0.0104,
+  "1": 0.0186,
+  "2": 0.0274
+ },
+ "residual_between_bearing_share": 0.4761539796841541,
+ "association": {
+  "loss_ce": {
+   "pooled_rho": 0.17336466512776544,
+   "pooled_ci95": [
+    -0.06186060285231403,
+    0.38591741242311367
+   ],
+   "between_bearing_rho": 0.02857142857142857,
+   "between_ci95": [
+    -0.43640011490331965,
+    0.48202169588051685
+   ],
+   "mean_within_bearing_rho": 0.19887108152293795,
+   "within_ci95": [
+    0.10686646272770875,
+    0.2945745174127103
+   ],
+   "within_rho_by_bearing": {
+    "K002": 0.0402,
+    "K003": 0.3264,
+    "K004": 0.41,
+    "K006": 0.282,
+    "KA01": 0.2516,
+    "KA03": 0.0728,
+    "KA04": 0.2461,
+    "KA05": 0.5444,
+    "KA06": 0.296,
+    "KA08": 0.6366,
+    "KA09": 0.174,
+    "KA15": -0.1571,
+    "KA22": 0.2683,
+    "KA30": 0.0582,
+    "KI03": -0.0746,
+    "KI05": 0.2589,
+    "KI07": 0.0325,
+    "KI08": 0.0559,
+    "KI17": -0.1772,
+    "KI18": 0.6607,
+    "KI21": -0.0297
+   }
+  },
+  "err_ce": {
+   "pooled_rho": 0.14290096910010489,
+   "pooled_ci95": [
+    -0.07889543047739807,
+    0.348732530425446
+   ],
+   "between_bearing_rho": 0.11298701298701298,
+   "between_ci95": [
+    -0.34906186994750227,
+    0.5589038747895343
+   ],
+   "mean_within_bearing_rho": 0.1660553216640187,
+   "within_ci95": [
+    0.08259284757574009,
+    0.2556458185318227
+   ],
+   "within_rho_by_bearing": {
+    "K002": 0.0094,
+    "K003": 0.275,
+    "K004": 0.0401,
+    "K006": 0.2092,
+    "KA01": 0.187,
+    "KA03": 0.0508,
+    "KA04": 0.1733,
+    "KA05": 0.6006,
+    "KA06": 0.2301,
+    "KA08": 0.5529,
+    "KA09": 0.0993,
+    "KA15": -0.1759,
+    "KA22": 0.2136,
+    "KA30": 0.0835,
+    "KI03": -0.0534,
+    "KI05": 0.3201,
+    "KI07": 0.0754,
+    "KI08": 0.0698,
+    "KI17": -0.0155,
+    "KI18": 0.5758,
+    "KI21": -0.0341
+   }
+  },
+  "loss_feat": {
+   "pooled_rho": 0.15420929371992362,
+   "pooled_ci95": [
+    -0.07148567950429754,
+    0.35702246286977196
+   ],
+   "between_bearing_rho": 0.04935064935064935,
+   "between_ci95": [
+    -0.4066797642436149,
+    0.4987040466853599
+   ],
+   "mean_within_bearing_rho": 0.20099508939257607,
+   "within_ci95": [
+    0.1110071145276902,
+    0.3012647867901559
+   ],
+   "within_rho_by_bearing": {
+    "K002": 0.1357,
+    "K003": 0.3193,
+    "K004": 0.5847,
+    "K006": 0.3742,
+    "KA01": 0.2331,
+    "KA03": 0.0483,
+    "KA04": 0.1382,
+    "KA05": 0.4729,
+    "KA06": 0.2071,
+    "KA08": 0.6268,
+    "KA09": 0.1267,
+    "KA15": -0.1115,
+    "KA22": 0.3062,
+    "KA30": 0.232,
+    "KI03": -0.1202,
+    "KI05": 0.3081,
+    "KI07": -0.0341,
+    "KI08": -0.0868,
+    "KI17": -0.1762,
+    "KI18": 0.6662,
+    "KI21": -0.0296
+   }
+  },
+  "err_feat": {
+   "pooled_rho": 0.12803490473823004,
+   "pooled_ci95": [
+    -0.08305805724316383,
+    0.31313232719394485
+   ],
+   "between_bearing_rho": 0.12077922077922078,
+   "between_ci95": [
+    -0.3534031413612565,
+    0.545521515855954
+   ],
+   "mean_within_bearing_rho": 0.14579831876719362,
+   "within_ci95": [
+    0.06634927487875514,
+    0.235611976742046
+   ],
+   "within_rho_by_bearing": {
+    "K002": 0.0324,
+    "K003": 0.2877,
+    "K004": 0.2987,
+    "K006": 0.3197,
+    "KA01": 0.1661,
+    "KA03": 0.0318,
+    "KA04": 0.0815,
+    "KA05": 0.3313,
+    "KA06": 0.1147,
+    "KA08": 0.5507,
+    "KA09": 0.0444,
+    "KA15": -0.0798,
+    "KA22": 0.1514,
+    "KA30": 0.1232,
+    "KI03": -0.1128,
+    "KI05": 0.3505,
+    "KI07": 0.0001,
+    "KI08": -0.062,
+    "KI17": -0.1716,
+    "KI18": 0.6119,
+    "KI21": -0.008
+   }
+  },
+  "loss_gate": {
+   "pooled_rho": 0.1885602203885382,
+   "pooled_ci95": [
+    -0.06387917371429608,
+    0.4131706020208718
+   ],
+   "between_bearing_rho": 0.10389610389610389,
+   "between_ci95": [
+    -0.3805829137458406,
+    0.5552648790058862
+   ],
+   "mean_within_bearing_rho": 0.2057441621344416,
+   "within_ci95": [
+    0.10965870160336026,
+    0.30621943131455237
+   ],
+   "within_rho_by_bearing": {
+    "K002": 0.0298,
+    "K003": 0.3255,
+    "K004": 0.5926,
+    "K006": 0.3874,
+    "KA01": 0.1947,
+    "KA03": 0.0292,
+    "KA04": 0.1709,
+    "KA05": 0.5616,
+    "KA06": 0.2757,
+    "KA08": 0.6217,
+    "KA09": 0.1577,
+    "KA15": -0.1871,
+    "KA22": 0.337,
+    "KA30": 0.1647,
+    "KI03": -0.0979,
+    "KI05": 0.2286,
+    "KI07": 0.009,
+    "KI08": 0.0541,
+    "KI17": -0.1387,
+    "KI18": 0.6548,
+    "KI21": -0.0508
+   }
+  },
+  "err_gate": {
+   "pooled_rho": 0.19527368629156464,
+   "pooled_ci95": [
+    -0.031318521317767925,
+    0.3873496266785458
+   ],
+   "between_bearing_rho": 0.22077922077922077,
+   "between_ci95": [
+    -0.2559101123304287,
+    0.6360260915241811
+   ],
+   "mean_within_bearing_rho": 0.1468522257847727,
+   "within_ci95": [
+    0.06029015192231733,
+    0.24010488955729445
+   ],
+   "within_rho_by_bearing": {
+    "K002": -0.0131,
+    "K003": 0.2907,
+    "K004": 0.0594,
+    "K006": 0.2063,
+    "KA01": 0.0771,
+    "KA03": 0.0719,
+    "KA04": 0.1682,
+    "KA05": 0.5731,
+    "KA06": 0.1218,
+    "KA08": 0.5358,
+    "KA09": 0.1315,
+    "KA15": -0.198,
+    "KA22": 0.2915,
+    "KA30": 0.1583,
+    "KI03": -0.1508,
+    "KI05": 0.2485,
+    "KI07": 0.0326,
+    "KI08": 0.0874,
+    "KI17": -0.157,
+    "KI18": 0.5809,
+    "KI21": -0.0323
+   }
+  }
+ }
+}

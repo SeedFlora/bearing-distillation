@@ -1,0 +1,8 @@
+# Preserve the bytes referenced by the protocol and split checksums.
+/manifests/** -text
+/reports/protocol.md -text
+/configs/data/paderborn_labels.yaml -text
+/src/cmkd/** -text
+/scripts/run_main.py -text
+/scripts/build_cache.py -text
+*.sh text eol=lf

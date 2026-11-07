@@ -1,0 +1,345 @@
+{
+ "method": "ungrouped_gate",
+ "seed": 2,
+ "hp": {
+  "lambda": 0.5,
+  "tau_scale": 2.0,
+  "eps": 0.05
+ },
+ "train": {
+  "best_epoch": 9,
+  "best_val_recording_macro_f1": 0.6112570576377093,
+  "train_seconds": 12.3,
+  "checkpoint_hash": "7b301c718d1c18fc"
+ },
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 1.5625199012353386,
+   "val_recording_macro_f1": 0.19047619047619047,
+   "elapsed_s": 0.6
+  },
+  {
+   "epoch": 1,
+   "train_loss": 1.4370882880519813,
+   "val_recording_macro_f1": 0.19047619047619047,
+   "elapsed_s": 1.2
+  },
+  {
+   "epoch": 2,
+   "train_loss": 1.4087581802421891,
+   "val_recording_macro_f1": 0.19047619047619047,
+   "elapsed_s": 1.9
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.344436722742,
+   "val_recording_macro_f1": 0.4726000159071025,
+   "elapsed_s": 2.5
+  },
+  {
+   "epoch": 4,
+   "train_loss": 1.2371770227459116,
+   "val_recording_macro_f1": 0.493968253968254,
+   "elapsed_s": 3.1
+  },
+  {
+   "epoch": 5,
+   "train_loss": 1.1880778309325097,
+   "val_recording_macro_f1": 0.5248944272271857,
+   "elapsed_s": 3.7
+  },
+  {
+   "epoch": 6,
+   "train_loss": 1.1514405028920778,
+   "val_recording_macro_f1": 0.48720549079486625,
+   "elapsed_s": 4.3
+  },
+  {
+   "epoch": 7,
+   "train_loss": 1.1222368159764249,
+   "val_recording_macro_f1": 0.4703513563541442,
+   "elapsed_s": 4.9
+  },
+  {
+   "epoch": 8,
+   "train_loss": 1.0819772952039477,
+   "val_recording_macro_f1": 0.5134574570350542,
+   "elapsed_s": 5.6
+  },
+  {
+   "epoch": 9,
+   "train_loss": 1.0391375195812171,
+   "val_recording_macro_f1": 0.6112570576377093,
+   "elapsed_s": 6.2
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.997249938232798,
+   "val_recording_macro_f1": 0.5326662037670898,
+   "elapsed_s": 6.8
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.9510256992259496,
+   "val_recording_macro_f1": 0.5691381812126834,
+   "elapsed_s": 7.4
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.9142553294208687,
+   "val_recording_macro_f1": 0.5086802077645928,
+   "elapsed_s": 8.0
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.8806922662426049,
+   "val_recording_macro_f1": 0.4965979297794161,
+   "elapsed_s": 8.6
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.8540011442882914,
+   "val_recording_macro_f1": 0.516548160772809,
+   "elapsed_s": 9.3
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.8259435640254491,
+   "val_recording_macro_f1": 0.5531515746059469,
+   "elapsed_s": 9.9
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.8051680779792894,
+   "val_recording_macro_f1": 0.552314721935815,
+   "elapsed_s": 10.5
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.7804726446178597,
+   "val_recording_macro_f1": 0.560213798244087,
+   "elapsed_s": 11.1
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.7641244824503509,
+   "val_recording_macro_f1": 0.5299908115323937,
+   "elapsed_s": 11.7
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.7449205198758085,
+   "val_recording_macro_f1": 0.460192765659341,
+   "elapsed_s": 12.3
+  }
+ ],
+ "test_metrics": {
+  "recording": {
+   "macro_f1": 0.4243363777096154,
+   "balanced_accuracy": 0.421939736346516,
+   "recall": [
+    0.2875,
+    0.4491525423728814,
+    0.5291666666666667
+   ],
+   "confusion": [
+    [
+     23,
+     51,
+     6
+    ],
+    [
+     64,
+     106,
+     66
+    ],
+    [
+     0,
+     113,
+     127
+    ]
+   ],
+   "n": 556
+  },
+  "window": {
+   "macro_f1": 0.3982902922094083,
+   "balanced_accuracy": 0.3976095285388437,
+   "recall": [
+    0.271875,
+    0.43190249072602016,
+    0.48905109489051096
+   ],
+   "confusion": [
+    [
+     174,
+     378,
+     88
+    ],
+    [
+     499,
+     815,
+     573
+    ],
+    [
+     54,
+     926,
+     938
+    ]
+   ],
+   "n": 4445
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.6183864309213034,
+   "N15_M01_F10": 0.27072700637929964,
+   "N15_M07_F04": 0.32704761904761903,
+   "N15_M07_F10": 0.4095229873480859
+  },
+  "recording_accuracy_by_bearing": {
+   "K003": 0.2875,
+   "KA04": 0.15789473684210525,
+   "KA06": 0.8875,
+   "KA09": 0.2875,
+   "KI03": 0.3375,
+   "KI07": 0.7875,
+   "KI17": 0.4625
+  }
+ },
+ "n_parameters_deployed": 14083,
+ "val_metrics": {
+  "recording": {
+   "macro_f1": 0.6112570576377093,
+   "balanced_accuracy": 0.6791666666666667,
+   "recall": [
+    0.9875,
+    0.81875,
+    0.23125
+   ],
+   "confusion": [
+    [
+     79,
+     1,
+     0
+    ],
+    [
+     19,
+     131,
+     10
+    ],
+    [
+     14,
+     109,
+     37
+    ]
+   ],
+   "n": 400
+  },
+  "window": {
+   "macro_f1": 0.5634542685420171,
+   "balanced_accuracy": 0.6186646875814439,
+   "recall": [
+    0.9171875,
+    0.6724003127443315,
+    0.26640625
+   ],
+   "confusion": [
+    [
+     587,
+     40,
+     13
+    ],
+    [
+     196,
+     860,
+     223
+    ],
+    [
+     160,
+     779,
+     341
+    ]
+   ],
+   "n": 3199
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.504745778330684,
+   "N15_M01_F10": 0.6566597084889768,
+   "N15_M07_F04": 0.7560922851279129,
+   "N15_M07_F10": 0.5020589705147427
+  },
+  "recording_accuracy_by_bearing": {
+   "K004": 0.9875,
+   "KA01": 0.8375,
+   "KA16": 0.8,
+   "KI01": 0.1,
+   "KI16": 0.3625
+  }
+ },
+ "ext_metrics": {
+  "recording": {
+   "macro_f1": 0.07734806629834254,
+   "balanced_accuracy": 0.13125,
+   "recall": [
+    0.0,
+    0.0,
+    0.13125
+   ],
+   "confusion": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     47,
+     92,
+     21
+    ]
+   ],
+   "n": 160
+  },
+  "window": {
+   "macro_f1": 0.12726506531816265,
+   "balanced_accuracy": 0.2359375,
+   "recall": [
+    0.0,
+    0.0,
+    0.2359375
+   ],
+   "confusion": [
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0
+    ],
+    [
+     338,
+     640,
+     302
+    ]
+   ],
+   "n": 1280
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.1111111111111111,
+   "N15_M01_F10": 0.016260162601626018,
+   "N15_M07_F04": 0.031746031746031744,
+   "N15_M07_F10": 0.13333333333333333
+  },
+  "recording_accuracy_by_bearing": {
+   "KI04": 0.1625,
+   "KI14": 0.1
+  }
+ },
+ "matched_to": "gate"
+}

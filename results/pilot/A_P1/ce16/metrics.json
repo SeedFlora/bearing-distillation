@@ -1,0 +1,164 @@
+{
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 1.0995201349258423,
+   "val_recording_macro_f1": 0.16666666666666666,
+   "elapsed_s": 0.1
+  },
+  {
+   "epoch": 1,
+   "train_loss": 1.085754664738973,
+   "val_recording_macro_f1": 0.16666666666666666,
+   "elapsed_s": 0.3
+  },
+  {
+   "epoch": 2,
+   "train_loss": 1.092908541361491,
+   "val_recording_macro_f1": 0.2274247247718131,
+   "elapsed_s": 0.4
+  },
+  {
+   "epoch": 3,
+   "train_loss": 1.0828488190968832,
+   "val_recording_macro_f1": 0.26640687621664955,
+   "elapsed_s": 0.6
+  },
+  {
+   "epoch": 4,
+   "train_loss": 1.066360561052958,
+   "val_recording_macro_f1": 0.2787213473686856,
+   "elapsed_s": 0.7
+  },
+  {
+   "epoch": 5,
+   "train_loss": 1.0624824523925782,
+   "val_recording_macro_f1": 0.2869395711500975,
+   "elapsed_s": 0.9
+  },
+  {
+   "epoch": 6,
+   "train_loss": 1.0682133197784425,
+   "val_recording_macro_f1": 0.2070009211738387,
+   "elapsed_s": 1.0
+  },
+  {
+   "epoch": 7,
+   "train_loss": 1.0508013010025024,
+   "val_recording_macro_f1": 0.26408650789632104,
+   "elapsed_s": 1.2
+  },
+  {
+   "epoch": 8,
+   "train_loss": 1.0407261411348978,
+   "val_recording_macro_f1": 0.2519420289855072,
+   "elapsed_s": 1.3
+  },
+  {
+   "epoch": 9,
+   "train_loss": 1.0018355965614318,
+   "val_recording_macro_f1": 0.1839750472976428,
+   "elapsed_s": 1.5
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.9699788808822631,
+   "val_recording_macro_f1": 0.17813934084272007,
+   "elapsed_s": 1.6
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.9498756090799968,
+   "val_recording_macro_f1": 0.182126710543859,
+   "elapsed_s": 1.7
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.882816751797994,
+   "val_recording_macro_f1": 0.16017316017316016,
+   "elapsed_s": 1.9
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.9474961360295614,
+   "val_recording_macro_f1": 0.16666666666666666,
+   "elapsed_s": 2.0
+  }
+ ],
+ "best_epoch": 5,
+ "best_val_recording_macro_f1": 0.2869395711500975,
+ "train_seconds": 2.0,
+ "checkpoint_hash": "880425578f32aced",
+ "spec": {
+  "method": "ce",
+  "rate": 16000
+ },
+ "eval_metrics": {
+  "recording": {
+   "macro_f1": 0.2869395711500975,
+   "balanced_accuracy": 0.325,
+   "recall": [
+    0.5125,
+    0.0625,
+    0.4
+   ],
+   "confusion": [
+    [
+     41,
+     5,
+     34
+    ],
+    [
+     41,
+     5,
+     34
+    ],
+    [
+     43,
+     5,
+     32
+    ]
+   ],
+   "n": 240
+  },
+  "window": {
+   "macro_f1": 0.3098907239496872,
+   "balanced_accuracy": 0.32395833333333335,
+   "recall": [
+    0.378125,
+    0.1515625,
+    0.4421875
+   ],
+   "confusion": [
+    [
+     242,
+     100,
+     298
+    ],
+    [
+     230,
+     97,
+     313
+    ],
+    [
+     254,
+     103,
+     283
+    ]
+   ],
+   "n": 1920
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.16666666666666666,
+   "N15_M01_F10": 0.31625620756055534,
+   "N15_M07_F04": 0.22222222222222224,
+   "N15_M07_F10": 0.23213365994598326
+  },
+  "recording_accuracy_by_bearing": {
+   "K005": 0.5125,
+   "KA16": 0.0625,
+   "KI01": 0.4
+  }
+ },
+ "teacher_checkpoint": "430c81a202571c98"
+}

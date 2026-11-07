@@ -1,0 +1,230 @@
+{
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 0.9906086182930101,
+   "val_recording_macro_f1": 0.19753086419753085,
+   "elapsed_s": 1.9
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.1995844463686603,
+   "val_recording_macro_f1": 0.5642967672010951,
+   "elapsed_s": 3.3
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.013870571621916664,
+   "val_recording_macro_f1": 0.5905392946853315,
+   "elapsed_s": 4.7
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.018507829680382996,
+   "val_recording_macro_f1": 0.5006013305000779,
+   "elapsed_s": 6.1
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.0031339108327429898,
+   "val_recording_macro_f1": 0.5807002190703133,
+   "elapsed_s": 7.5
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.028549746772549837,
+   "val_recording_macro_f1": 0.3791551237506919,
+   "elapsed_s": 8.9
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.013280483835022634,
+   "val_recording_macro_f1": 0.5388213441404931,
+   "elapsed_s": 10.4
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.011970131592431538,
+   "val_recording_macro_f1": 0.4510364423751733,
+   "elapsed_s": 11.8
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.007706219297636982,
+   "val_recording_macro_f1": 0.5300053210377783,
+   "elapsed_s": 13.2
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.00040480615628529077,
+   "val_recording_macro_f1": 0.5370927945615407,
+   "elapsed_s": 14.6
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.0005906722377198683,
+   "val_recording_macro_f1": 0.5300053210377783,
+   "elapsed_s": 16.0
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.002306743570878892,
+   "val_recording_macro_f1": 0.5238051007030761,
+   "elapsed_s": 17.5
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.00017122466318487826,
+   "val_recording_macro_f1": 0.5252050469441775,
+   "elapsed_s": 18.9
+  }
+ ],
+ "best_epoch": 2,
+ "best_val_recording_macro_f1": 0.5905392946853315,
+ "train_seconds": 18.9,
+ "checkpoint_hash": "08397b7bf5ff3f70",
+ "val_metrics": {
+  "recording": {
+   "macro_f1": 0.5905392946853315,
+   "balanced_accuracy": 0.5791666666666667,
+   "recall": [
+    0.3375,
+    0.825,
+    0.575
+   ],
+   "confusion": [
+    [
+     27,
+     14,
+     39
+    ],
+    [
+     6,
+     132,
+     22
+    ],
+    [
+     0,
+     68,
+     92
+    ]
+   ],
+   "n": 400
+  },
+  "window": {
+   "macro_f1": 0.6135203507207628,
+   "balanced_accuracy": 0.6004817473019276,
+   "recall": [
+    0.46875,
+    0.815480844409695,
+    0.5172143974960877
+   ],
+   "confusion": [
+    [
+     300,
+     88,
+     252
+    ],
+    [
+     73,
+     1043,
+     163
+    ],
+    [
+     7,
+     610,
+     661
+    ]
+   ],
+   "n": 3197
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.4464285714285714,
+   "N15_M01_F10": 0.43333333333333335,
+   "N15_M07_F04": 0.8420013166556947,
+   "N15_M07_F10": 0.4671890697207153
+  },
+  "recording_accuracy_by_bearing": {
+   "K005": 0.3375,
+   "KA09": 0.9375,
+   "KA30": 0.7125,
+   "KI08": 0.775,
+   "KI16": 0.375
+  }
+ },
+ "test_metrics": {
+  "recording": {
+   "macro_f1": 0.7176962137571122,
+   "balanced_accuracy": 0.7197611576011158,
+   "recall": [
+    0.625,
+    0.7280334728033473,
+    0.80625
+   ],
+   "confusion": [
+    [
+     100,
+     0,
+     60
+    ],
+    [
+     0,
+     174,
+     65
+    ],
+    [
+     31,
+     0,
+     129
+    ]
+   ],
+   "n": 559
+  },
+  "window": {
+   "macro_f1": 0.7124878668968765,
+   "balanced_accuracy": 0.7146952620831343,
+   "recall": [
+    0.5942142298670836,
+    0.7337526205450734,
+    0.8161189358372457
+   ],
+   "confusion": [
+    [
+     760,
+     27,
+     492
+    ],
+    [
+     7,
+     1400,
+     501
+    ],
+    [
+     193,
+     42,
+     1043
+    ]
+   ],
+   "n": 4465
+  },
+  "recording_by_condition": {
+   "N09_M07_F10": 0.8157781145244983,
+   "N15_M01_F10": 0.6403439501623235,
+   "N15_M07_F04": 0.7383552249828561,
+   "N15_M07_F10": 0.6296200270791922
+  },
+  "recording_accuracy_by_bearing": {
+   "K002": 0.25,
+   "K006": 1.0,
+   "KA03": 0.6,
+   "KA08": 1.0,
+   "KA22": 0.5875,
+   "KI05": 0.6125,
+   "KI18": 1.0
+  }
+ },
+ "preprocessing_hashes": {
+  "current_8000": "f09278b4921871e6",
+  "vibration_32000": "96d789a40317c16b"
+ }
+}

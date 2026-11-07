@@ -1,0 +1,21 @@
+# Label decisions applied on top of the factsheet-derived classes.
+# Evidence and rationale: reports/decisions.md (D04).
+factsheet_rule: "class = set of damaged components over all documented damages"
+overrides:
+  KA08:
+    class3: outer
+    damage_origin: artificial
+    status: verified
+    evidence: "Lessmeier et al. (2016), Table 4 lists KA08 as outer ring (OR), drilling, extent 2; the factsheet prints component 'AR' (not in its legend), method 'drilled', extent 2. Checked 2026-11-07 (reports/data_source_paderborn.md)."
+primary_population:
+  classes: [healthy, outer, inner]
+  exclude_bearings:
+    KB23: combined damage (IR + OR fatigue pitting)
+    KB24: combined damage (IR + OR)
+    KB27: combined damage (IR + OR)
+    KI04: "factsheet: IR fatigue pitting plus OR particle-caused indentations (combination M); paper Table 5 lists IR only -> sources conflict, excluded from primary"
+    KI14: "factsheet: IR fatigue pitting plus OR particle-caused indentations (combination M); paper Table 5 lists IR only -> sources conflict, excluded from primary"
+sensitivity_external:
+  description: "Protocol A models applied to bearings with IR pitting and secondary OR indentations"
+  bearings: [KI04, KI14]
+  reference_label: inner

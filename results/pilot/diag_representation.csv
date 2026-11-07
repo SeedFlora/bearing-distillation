@@ -1,0 +1,17 @@
+split,representation,eval_rec_macro_f1,eval_win_macro_f1,train_loss_last,epochs
+S,wave_hz,0.501,0.442,0.88,28
+S,wave_order,0.515,0.46,0.72,30
+S,logspec_hz,0.763,0.691,0.304,24
+S,logspec_order,0.782,0.603,0.318,19
+A_P1,wave_hz,0.29,0.318,0.676,13
+A_P1,wave_order,0.29,0.312,0.528,15
+A_P1,logspec_hz,0.236,0.235,0.302,19
+A_P1,logspec_order,0.184,0.187,0.222,21
+A_P2,wave_hz,0.321,0.319,0.945,19
+A_P2,wave_order,0.315,0.324,0.785,14
+A_P2,logspec_hz,0.376,0.318,0.148,23
+A_P2,logspec_order,0.233,0.226,0.164,23
+B_N09,wave_hz,0.167,0.167,0.845,30
+B_N09,wave_order,0.381,0.388,0.835,30
+B_N09,logspec_hz,0.752,0.619,0.401,30
+B_N09,logspec_order,0.475,0.433,0.288,30

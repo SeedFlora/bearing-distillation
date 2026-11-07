@@ -1,0 +1,110 @@
+{
+ "hardware": {
+  "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "machine": "AMD64",
+  "logical_cpus": 20,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU"
+ },
+ "software": {
+  "python": "3.13.5",
+  "numpy": "2.4.6",
+  "torch": "2.11.0+cu128",
+  "onnxruntime": "1.20.1",
+  "onnx": "1.22.0"
+ },
+ "checkpoint": "checkpoints\\main\\A_fold0_ce_s0.pt",
+ "frontend": "hz",
+ "input_bins": 2001,
+ "deploy_preprocessing": "NumPy twin of LogSpectrumFrontEnd",
+ "parameters_deployed": 14083,
+ "file_bytes": {
+  "fp32": 58481,
+  "int8": 37112
+ },
+ "int8_graph_op_counts": {
+  "DequantizeLinear": 32,
+  "QuantizeLinear": 12,
+  "Conv": 9,
+  "ReduceMean": 1,
+  "Gemm": 1
+ },
+ "preprocessing_parity": {
+  "torch_cpu": {
+   "max_abs": 0.32657885551452637,
+   "p99_9_abs": 0.04863598942756653,
+   "median_abs": 0.00010219216346740723,
+   "max_abs_outside_decimation_stopband": 0.0058727264404296875,
+   "window_decision_agreement": 0.9794921875,
+   "max_abs_logit_diff": 0.46625927090644836
+  },
+  "torch_gpu_eval_path": {
+   "max_abs": 0.3581523895263672,
+   "p99_9_abs": 0.055567387491464615,
+   "median_abs": 0.00010180473327636719,
+   "max_abs_outside_decimation_stopband": 0.020885705947875977,
+   "window_decision_agreement": 0.98046875,
+   "max_abs_logit_diff": 0.4458313584327698
+  }
+ },
+ "decision_timing_note": "one window needs 0.5 s of acquisition; a recording decision needs 4.0 s; latencies below exclude acquisition",
+ "fp32": {
+  "cpu_threads1": {
+   "median_ms": 0.16239999968092889,
+   "p95_ms": 0.294400000711903,
+   "n": 2000
+  },
+  "max_abs_diff_vs_torch_fp32": 1.5035271644592285e-05,
+  "argmax_agreement_vs_torch_fp32": 1.0,
+  "cpu_threads4": {
+   "median_ms": 0.17505000141682103,
+   "p95_ms": 0.23333500066655685,
+   "n": 2000
+  },
+  "fold0_test_recording_macro_f1": 0.5801967354242498,
+  "window_decision_agreement_vs_evaluation": 0.9639417693169093,
+  "recording_decision_agreement_vs_evaluation": 0.9767441860465116
+ },
+ "int8": {
+  "cpu_threads1": {
+   "median_ms": 0.08230000094044954,
+   "p95_ms": 0.10661499691195785,
+   "n": 2000
+  },
+  "max_abs_diff_vs_torch_fp32": 0.6534099578857422,
+  "argmax_agreement_vs_torch_fp32": 0.95703125,
+  "cpu_threads4": {
+   "median_ms": 0.06970000686123967,
+   "p95_ms": 0.10040000779554248,
+   "n": 2000
+  },
+  "fold0_test_recording_macro_f1": 0.5782114751926496,
+  "window_decision_agreement_vs_evaluation": 0.9455767077267637,
+  "recording_decision_agreement_vs_evaluation": 0.9731663685152058
+ },
+ "preprocessing_cpu_threads1": {
+  "median_ms": 0.06330000178422779,
+  "p95_ms": 0.09439999194000848,
+  "n": 2000
+ },
+ "preprocessing_torch_cpu_threads1": {
+  "median_ms": 0.11829999857582152,
+  "p95_ms": 0.18850499473046511,
+  "n": 2000
+ },
+ "torch_fp32_cpu_threads4": {
+  "median_ms": 0.6681500017293729,
+  "p95_ms": 1.0736799973528832,
+  "n": 2000
+ },
+ "torch_fp32_gpu": {
+  "median_ms": 0.8169999928213656,
+  "p95_ms": 1.14626499635051,
+  "n": 2000
+ },
+ "evaluation_pipeline": {
+  "fold0_test_recording_macro_f1": 0.5871737263921336,
+  "matched_windows": 4465,
+  "deploy_windows": 4471,
+  "evaluation_windows": 4465
+ }
+}
